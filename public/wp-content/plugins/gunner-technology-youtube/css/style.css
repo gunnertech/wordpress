@@ -1,0 +1,24 @@
+.videos {
+  margin: 0;
+  padding: 0;
+}
+
+.video_thumb {
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.video_thumb figure {
+  cursor: pointer;
+  display: block;
+  float: left;
+  margin-right: 10px;
+}
+
+.youtube-video-meta {
+  margin: 10px 0 20px 0;
+}
+
+.youtube-video-meta p {
+  display: none;
+}

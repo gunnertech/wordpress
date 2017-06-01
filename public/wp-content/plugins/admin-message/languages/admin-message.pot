@@ -1,0 +1,78 @@
+# Translation of the WordPress plugin Admin Message 1.1.1 by S H Mohanjith (Incsub), Andrew Billits (Incsub).
+# Copyright (C) 2011 S H Mohanjith (Incsub), Andrew Billits (Incsub)
+# This file is distributed under the same license as the Admin Message package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Admin Message 1.1.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/admin-message\n"
+"POT-Creation-Date: 2011-01-03 01:26+0530\n"
+"PO-Revision-Date: 2011-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. #-#-#-#-#  admin-message.pot (Admin Message 1.1.1)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: admin-message.php:64 admin-message.php:68 admin-message.php:96
+msgid "Admin Message"
+msgstr ""
+
+#: admin-message.php:81
+msgid "Nice Try..."
+msgstr ""
+
+#: admin-message.php:100
+msgid "Message"
+msgstr ""
+
+#: admin-message.php:103
+msgid "HTML allowed"
+msgstr ""
+
+#: admin-message.php:108
+msgid "Save Changes"
+msgstr ""
+
+#: admin-message.php:109
+msgid "Reset"
+msgstr ""
+
+#: admin-message.php:120
+msgid "Settings cleared."
+msgstr ""
+
+#: admin-message.php:131
+msgid "Settings saved."
+msgstr ""
+
+#: admin-message.php:150
+msgid ""
+"Please install the latest version of <a href=\"http://premium.wpmudev.org/"
+"project/update-notifications/\" title=\"Download Now &raquo;\">our free "
+"Update Notifications plugin</a> which helps you stay up-to-date with the "
+"most stable, secure versions of WPMU DEV themes and plugins. <a href="
+"\"http://premium.wpmudev.org/wpmu-dev/update-notifications-plugin-"
+"information/\">More information &raquo;</a>"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://premium.wpmudev.org/project/admin-message"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Display a message in admin dashboard"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "S H Mohanjith (Incsub), Andrew Billits (Incsub)"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://premium.wpmudev.org"
+msgstr ""

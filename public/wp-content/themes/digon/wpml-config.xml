@@ -1,0 +1,31 @@
+<wpml-config>
+    <admin-texts>
+        <key name="mtheme_fullscreen_menu_default_text" />
+        <key name="mtheme_rightclick_disabletext" />
+        <key name="mtheme_footer_copyright" />
+
+        <key name="mtheme_step_1_title" />
+        <key name="mtheme_step_1_desc" />
+        <key name="mtheme_step_2_title" />
+        <key name="mtheme_step_2_desc" />
+        <key name="mtheme_step_3_title" />
+        <key name="mtheme_step_3_desc" />
+        
+        <key name="mtheme_read_more" />
+
+        <key name="mtheme_ctemplate_title" />
+        <key name="mtheme_ctemplate_lname" />
+        <key name="mtheme_ctemplate_lemail" />
+        <key name="mtheme_ctemplate_lsubject" />
+        <key name="mtheme_ctemplate_lmessage" />
+        <key name="mtheme_ctemplate_errorname" />
+        <key name="mtheme_ctemplate_erroremail" />
+        <key name="mtheme_ctemplate_invalidemail" />
+        <key name="mtheme_ctemplate_errormsg" />
+        <key name="mtheme_ctemplate_thankyou" />
+        <key name="mtheme_ctemplate_button" />
+
+    </admin-texts>  
+</wpml-config>
+
+

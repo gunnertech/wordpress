@@ -1,0 +1,31 @@
+.base-nav {
+  float: right;
+  margin: 0;
+}
+
+.base-nav li {
+  float: left;
+  list-style-type: none;
+  margin-left: 30px;
+}
+
+.vertical-nav,
+.vertical-nav ul {
+  margin: 0;
+}
+
+.vertical-nav li {
+  list-style-type: none;
+}
+
+.vertical-nav > li {
+  margin-bottom: 20px;
+}
+
+.vertical-nav > li > a {
+  text-transform: uppercase;
+}
+
+.vertical-nav > li li {
+  margin-bottom: 10px;
+}

@@ -1,0 +1,1227 @@
+/*
+Theme Name: Cody A Swann
+Theme URI: http://codyaswann.com
+Description: This theme is for codyaswann.com.
+Author: gunnertech, codyswann
+Template: gunner_technology_s_response
+Version: 1.0
+Tags: responsive
+*/
+/*
+Theme Name: Gunner Technology's Response
+Theme URI: http://gunnertech.com/gunner-technology-s-response
+Description: Provide a description when done.
+Author: Gunner Technology
+Version: 1.0
+Tags: responsive
+*/
+/* line 17, ../../../../../../../../.rvm/gems/ruby-1.9.2-head@wpnetwork/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 20, ../../../../../../../../.rvm/gems/ruby-1.9.2-head@wpnetwork/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+body {
+  line-height: 1;
+}
+
+/* line 22, ../../../../../../../../.rvm/gems/ruby-1.9.2-head@wpnetwork/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 24, ../../../../../../../../.rvm/gems/ruby-1.9.2-head@wpnetwork/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 26, ../../../../../../../../.rvm/gems/ruby-1.9.2-head@wpnetwork/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 28, ../../../../../../../../.rvm/gems/ruby-1.9.2-head@wpnetwork/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 101, ../../../../../../../../.rvm/gems/ruby-1.9.2-head@wpnetwork/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 30, ../../../../../../../../.rvm/gems/ruby-1.9.2-head@wpnetwork/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 114, ../../../../../../../../.rvm/gems/ruby-1.9.2-head@wpnetwork/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* =============================================================================
+   HTML5 display definitions
+   ========================================================================== */
+/* line 25, ../gunner_technology_s_response/sass/_base.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+  display: block;
+}
+
+/* line 26, ../gunner_technology_s_response/sass/_base.scss */
+audio, canvas, video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+/* line 27, ../gunner_technology_s_response/sass/_base.scss */
+audio:not([controls]) {
+  display: none;
+}
+
+/* line 28, ../gunner_technology_s_response/sass/_base.scss */
+[hidden] {
+  display: none;
+}
+
+/* =============================================================================
+   Base
+   ========================================================================== */
+/*
+ * 1. Correct text resizing oddly in IE6/7 when body font-size is set using em units
+ * 2. Force vertical scrollbar in non-IE
+ * 3. Prevent iOS text size adjust on device orientation change, without disabling user zoom: h5bp.com/g
+ */
+/* line 41, ../gunner_technology_s_response/sass/_base.scss */
+html {
+  font-size: 100%;
+  overflow-y: scroll;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* line 43, ../gunner_technology_s_response/sass/_base.scss */
+body {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.231;
+}
+
+/* line 45, ../gunner_technology_s_response/sass/_base.scss */
+body, button, input, select, textarea {
+  font-family: sans-serif;
+  color: #222;
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection declarations have to be separate
+ * Also: hot pink! (or customize the background color to match your design)
+ */
+/* line 53, ../gunner_technology_s_response/sass/_base.scss */
+::-moz-selection {
+  background: #fe57a1;
+  color: #fff;
+  text-shadow: none;
+}
+
+/* line 54, ../gunner_technology_s_response/sass/_base.scss */
+::selection {
+  background: #fe57a1;
+  color: #fff;
+  text-shadow: none;
+}
+
+/* =============================================================================
+   Links
+   ========================================================================== */
+/* line 61, ../gunner_technology_s_response/sass/_base.scss */
+a {
+  color: #00e;
+}
+
+/* line 62, ../gunner_technology_s_response/sass/_base.scss */
+a:visited {
+  color: #551a8b;
+}
+
+/* line 63, ../gunner_technology_s_response/sass/_base.scss */
+a:hover {
+  color: #06e;
+}
+
+/* line 64, ../gunner_technology_s_response/sass/_base.scss */
+a:focus {
+  outline: thin dotted;
+}
+
+/* Improve readability when focused and hovered in all browsers: h5bp.com/h */
+/* line 67, ../gunner_technology_s_response/sass/_base.scss */
+a:hover, a:active {
+  outline: 0;
+}
+
+/* =============================================================================
+   Typography
+   ========================================================================== */
+/* line 74, ../gunner_technology_s_response/sass/_base.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/* line 76, ../gunner_technology_s_response/sass/_base.scss */
+b, strong {
+  font-weight: bold;
+}
+
+/* line 78, ../gunner_technology_s_response/sass/_base.scss */
+blockquote {
+  margin: 1em 40px;
+}
+
+/* line 80, ../gunner_technology_s_response/sass/_base.scss */
+dfn {
+  font-style: italic;
+}
+
+/* line 82, ../gunner_technology_s_response/sass/_base.scss */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/* line 84, ../gunner_technology_s_response/sass/_base.scss */
+ins {
+  background: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* line 86, ../gunner_technology_s_response/sass/_base.scss */
+mark {
+  background: #ff0;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* Redeclare monospace font family: h5bp.com/j */
+/* line 89, ../gunner_technology_s_response/sass/_base.scss */
+pre, code, kbd, samp {
+  font-family: monospace, serif;
+  _font-family: 'courier new', monospace;
+  font-size: 1em;
+}
+
+/* Improve readability of pre-formatted text in all browsers */
+/* line 92, ../gunner_technology_s_response/sass/_base.scss */
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/* line 94, ../gunner_technology_s_response/sass/_base.scss */
+q {
+  quotes: none;
+}
+
+/* line 95, ../gunner_technology_s_response/sass/_base.scss */
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+/* line 97, ../gunner_technology_s_response/sass/_base.scss */
+small {
+  font-size: 85%;
+}
+
+/* Position subscript and superscript content without affecting line-height: h5bp.com/k */
+/* line 100, ../gunner_technology_s_response/sass/_base.scss */
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 101, ../gunner_technology_s_response/sass/_base.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 102, ../gunner_technology_s_response/sass/_base.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* =============================================================================
+   Lists
+   ========================================================================== */
+/* line 109, ../gunner_technology_s_response/sass/_base.scss */
+ul, ol {
+  margin: 1em 0;
+  padding: 0 0 0 40px;
+}
+
+/* line 110, ../gunner_technology_s_response/sass/_base.scss */
+dd {
+  margin: 0 0 0 40px;
+}
+
+/* line 111, ../gunner_technology_s_response/sass/_base.scss */
+nav ul, nav ol {
+  list-style: none;
+  list-style-image: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* =============================================================================
+   Embedded content
+   ========================================================================== */
+/*
+ * 1. Improve image quality when scaled in IE7: h5bp.com/d
+ * 2. Remove the gap between images and borders on image containers: h5bp.com/e
+ */
+/* line 123, ../gunner_technology_s_response/sass/_base.scss */
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+  vertical-align: middle;
+}
+
+/*
+ * Correct overflow not hidden in IE9
+ */
+/* line 129, ../gunner_technology_s_response/sass/_base.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* =============================================================================
+   Figures
+   ========================================================================== */
+/* line 136, ../gunner_technology_s_response/sass/_base.scss */
+figure {
+  margin: 0;
+}
+
+/* =============================================================================
+   Forms
+   ========================================================================== */
+/* line 143, ../gunner_technology_s_response/sass/_base.scss */
+form {
+  margin: 0;
+}
+
+/* line 144, ../gunner_technology_s_response/sass/_base.scss */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Indicate that 'label' will shift focus to the associated form element */
+/* line 147, ../gunner_technology_s_response/sass/_base.scss */
+label {
+  cursor: pointer;
+}
+
+/*
+ * 1. Correct color not inheriting in IE6/7/8/9
+ * 2. Correct alignment displayed oddly in IE6/7
+ */
+/* line 154, ../gunner_technology_s_response/sass/_base.scss */
+legend {
+  border: 0;
+  *margin-left: -7px;
+  padding: 0;
+}
+
+/*
+ * 1. Correct font-size not inheriting in all browsers
+ * 2. Remove margins in FF3/4 S5 Chrome
+ * 3. Define consistent vertical alignment display in all browsers
+ */
+/* line 162, ../gunner_technology_s_response/sass/_base.scss */
+button, input, select, textarea {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  *vertical-align: middle;
+}
+
+/*
+ * 1. Define line-height as normal to match FF3/4 (set using !important in the UA stylesheet)
+ * 2. Correct inner spacing displayed oddly in IE6/7
+ */
+/* line 169, ../gunner_technology_s_response/sass/_base.scss */
+button, input {
+  line-height: normal;
+  *overflow: visible;
+}
+
+/*
+ * Reintroduce inner spacing in 'table' to avoid overlap and whitespace issues in IE6/7
+ */
+/* line 175, ../gunner_technology_s_response/sass/_base.scss */
+table button, table input {
+  *overflow: auto;
+}
+
+/*
+ * 1. Display hand cursor for clickable form elements
+ * 2. Allow styling of clickable form elements in iOS
+ */
+/* line 182, ../gunner_technology_s_response/sass/_base.scss */
+button, input[type="button"], input[type="reset"], input[type="submit"], [role="button"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+}
+
+/*
+ * Consistent box sizing and appearance
+ */
+/* line 188, ../gunner_technology_s_response/sass/_base.scss */
+input[type="checkbox"], input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* line 189, ../gunner_technology_s_response/sass/_base.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+/* line 190, ../gunner_technology_s_response/sass/_base.scss */
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/*
+ * Remove inner padding and border in FF3/4: h5bp.com/l
+ */
+/* line 196, ../gunner_technology_s_response/sass/_base.scss */
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/*
+ * 1. Remove default vertical scrollbar in IE6/7/8/9
+ * 2. Allow only vertical resizing
+ */
+/* line 203, ../gunner_technology_s_response/sass/_base.scss */
+textarea {
+  overflow: auto;
+  vertical-align: top;
+  resize: vertical;
+}
+
+/* Colors for form validity */
+/* line 207, ../gunner_technology_s_response/sass/_base.scss */
+input:invalid, textarea:invalid {
+  background-color: #f0dddd;
+}
+
+/* =============================================================================
+   Tables
+   ========================================================================== */
+/* line 214, ../gunner_technology_s_response/sass/_base.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 215, ../gunner_technology_s_response/sass/_base.scss */
+td {
+  vertical-align: top;
+}
+
+/* iPhone 4, Opera Mobile 11 and other high pixel ratio devices ----------- */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5) {
+  /* Styles */
+}
+/* ==|== non-semantic helper classes ========================================
+   Please define your styles before this section.
+   ========================================================================== */
+/* prevent callout */
+/* line 16, ../gunner_technology_s_response/sass/_non-semantic.scss */
+.nocallout {
+  -webkit-touch-callout: none;
+}
+
+/* Text overflow with ellipsis */
+/* line 19, ../gunner_technology_s_response/sass/_non-semantic.scss */
+.ellipsis {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+/* A hack for HTML5 contenteditable attribute on mobile */
+/* line 26, ../gunner_technology_s_response/sass/_non-semantic.scss */
+textarea[contenteditable] {
+  -webkit-appearance: none;
+}
+
+/* A workaround for S60 3.x and 5.0 devices which do not animated gif images if they have been set as display: none */
+/* line 29, ../gunner_technology_s_response/sass/_non-semantic.scss */
+.gifhidden {
+  position: absolute;
+  left: -100%;
+}
+
+/* For image replacement */
+/* line 32, ../gunner_technology_s_response/sass/_non-semantic.scss */
+.ir {
+  display: block;
+  border: 0;
+  text-indent: -999em;
+  overflow: hidden;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  text-align: left;
+  direction: ltr;
+}
+
+/* line 33, ../gunner_technology_s_response/sass/_non-semantic.scss */
+.ir br {
+  display: none;
+}
+
+/* Hide from both screenreaders and browsers: h5bp.com/u */
+/* line 36, ../gunner_technology_s_response/sass/_non-semantic.scss */
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+/* Hide only visually, but have it available for screenreaders: h5bp.com/v */
+/* line 39, ../gunner_technology_s_response/sass/_non-semantic.scss */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/* Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard: h5bp.com/p */
+/* line 42, ../gunner_technology_s_response/sass/_non-semantic.scss */
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+/* Hide visually and from screenreaders, but maintain layout */
+/* line 45, ../gunner_technology_s_response/sass/_non-semantic.scss */
+.invisible {
+  visibility: hidden;
+}
+
+/* Contain floats: h5bp.com/q */
+/* line 48, ../gunner_technology_s_response/sass/_non-semantic.scss */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+
+/* line 49, ../gunner_technology_s_response/sass/_non-semantic.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 50, ../gunner_technology_s_response/sass/_non-semantic.scss */
+.clearfix {
+  *zoom: 1;
+}
+
+/* ==|== print styles =======================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+@media print {
+  /* line 60, ../gunner_technology_s_response/sass/_non-semantic.scss */
+  * {
+    background: transparent !important;
+    color: black !important;
+    text-shadow: none !important;
+    filter: none !important;
+    -ms-filter: none !important;
+  }
+
+  /* Black prints faster: h5bp.com/s */
+  /* line 61, ../gunner_technology_s_response/sass/_non-semantic.scss */
+  a, a:visited {
+    text-decoration: underline;
+  }
+
+  /* line 62, ../gunner_technology_s_response/sass/_non-semantic.scss */
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  /* line 63, ../gunner_technology_s_response/sass/_non-semantic.scss */
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  /* line 64, ../gunner_technology_s_response/sass/_non-semantic.scss */
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
+    content: "";
+  }
+
+  /* Don't show links for images, or javascript/internal links */
+  /* line 65, ../gunner_technology_s_response/sass/_non-semantic.scss */
+  pre, blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  /* line 66, ../gunner_technology_s_response/sass/_non-semantic.scss */
+  thead {
+    display: table-header-group;
+  }
+
+  /* h5bp.com/t */
+  /* line 67, ../gunner_technology_s_response/sass/_non-semantic.scss */
+  tr, img {
+    page-break-inside: avoid;
+  }
+
+  /* line 68, ../gunner_technology_s_response/sass/_non-semantic.scss */
+  img {
+    max-width: 100% !important;
+  }
+
+  @page {
+    margin: 0.5cm;
+}
+
+  /* line 70, ../gunner_technology_s_response/sass/_non-semantic.scss */
+  p, h2, h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* line 71, ../gunner_technology_s_response/sass/_non-semantic.scss */
+  h2, h3 {
+    page-break-after: avoid;
+  }
+}
+/* line 51, ../../../../../../../../.rvm/gems/ruby-1.9.2-head@wpnetwork/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+body {
+  font-size: 81.25%;
+  line-height: 1.231em;
+}
+
+/* line 55, ../../../../../../../../.rvm/gems/ruby-1.9.2-head@wpnetwork/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+html > body {
+  font-size: 13px;
+}
+
+@font-face {
+  font-family: "PublicGothicVintage";
+  src: url(/wp-content/themes/gunner_technology_s_response/fonts/PublicGothicVintage.eot);
+  src: url(/wp-content/themes/gunner_technology_s_response/fonts/PublicGothicVintage.eot?iefix) format('eot'), url(/wp-content/themes/gunner_technology_s_response/fonts/PublicGothicVintage.woff) format('woff'), url(/wp-content/themes/gunner_technology_s_response/fonts/PublicGothicVintage.otf) format('opentype'), url('/wp-content/themes/codyaswann/./fonts/../../gunner_technology_s_response/fonts/PublicGothicVintage.svg') format('svg');
+}
+
+/* line 1, sass/_lifestream.scss */
+.lifestream-paging {
+  font-size: 16px;
+  padding-top: 0;
+}
+
+/* line 6, sass/_lifestream.scss */
+#lifestream {
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 10px;
+  padding: 0;
+}
+/* line 15, sass/_lifestream.scss */
+#lifestream h2 {
+  -moz-border-radius: 4px 4px 0 0;
+  -webkit-border-radius: 4px 4px 0 0;
+  -o-border-radius: 4px 4px 0 0;
+  -ms-border-radius: 4px 4px 0 0;
+  -khtml-border-radius: 4px 4px 0 0;
+  border-radius: 4px 4px 0 0;
+  color: white;
+  font-family: PublicGothicVintage, "Myriad Pro", Arial, sans-serif;
+  font-size: 24px;
+  letter-spacing: 1px;
+  background-color: #ec7844;
+  -moz-box-shadow: 0px 0px 5px #333333;
+  -webkit-box-shadow: 0px 0px 5px #333333;
+  -o-box-shadow: 0px 0px 5px #333333;
+  box-shadow: 0px 0px 5px #333333;
+  padding: 10px;
+}
+/* line 22, sass/_lifestream.scss */
+#lifestream ol {
+  -moz-border-radius: 0 0 4px 4px;
+  -webkit-border-radius: 0 0 4px 4px;
+  -o-border-radius: 0 0 4px 4px;
+  -ms-border-radius: 0 0 4px 4px;
+  -khtml-border-radius: 0 0 4px 4px;
+  border-radius: 0 0 4px 4px;
+  -moz-background-size: 100% auto;
+  -webkit-background-size: 100% auto;
+  -o-background-size: 100% auto;
+  background-size: 100% auto;
+  background: url('/wp-content/themes/codyaswann/images/slider-bg.png?1327285002') repeat-y 0 0 scroll #1d4d69;
+  padding-bottom: 10px;
+  -moz-box-shadow: 0px 0px 5px #333333;
+  -webkit-box-shadow: 0px 0px 5px #333333;
+  -o-box-shadow: 0px 0px 5px #333333;
+  box-shadow: 0px 0px 5px #333333;
+  margin-bottom: 5px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  padding: 20px;
+}
+/* line 34, sass/_lifestream.scss */
+#lifestream ol li {
+  background-color: white;
+  margin-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+}
+/* line 45, sass/_lifestream.scss */
+#lifestream ol li:first-child {
+  margin-top: 0;
+}
+
+@media (min-width:320px) {
+  /* line 51, ../../../../../../../../.rvm/gems/ruby-1.9.2-head@wpnetwork/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+  body {
+    font-size: 100%;
+    line-height: 0.923em;
+  }
+
+  /* line 55, ../../../../../../../../.rvm/gems/ruby-1.9.2-head@wpnetwork/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+  html > body {
+    font-size: 16px;
+  }
+
+  /* line 9, sass/_320-up.scss */
+  html {
+    background-color: #ec7844;
+    background-image: url('/wp-content/themes/codyaswann/images/background.jpg?1327285002');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    overflow-x: hidden;
+  }
+  /* line 18, sass/_320-up.scss */
+  html body {
+    font-family: Arial, "Liberation Sans", FreeSans, sans-serif;
+  }
+
+  /* line 23, sass/_320-up.scss */
+  a {
+    color: #0066cc;
+  }
+  /* line 18, ../../../../../../../../.rvm/gems/ruby-1.9.2-head@wpnetwork/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+  a:visited {
+    color: #004c99;
+  }
+  /* line 21, ../../../../../../../../.rvm/gems/ruby-1.9.2-head@wpnetwork/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+  a:focus {
+    color: #0099ff;
+  }
+  /* line 24, ../../../../../../../../.rvm/gems/ruby-1.9.2-head@wpnetwork/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+  a:hover {
+    color: #0099ff;
+  }
+  /* line 27, ../../../../../../../../.rvm/gems/ruby-1.9.2-head@wpnetwork/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+  a:active {
+    color: #bf00ff;
+  }
+
+  /* line 27, sass/_320-up.scss */
+  small {
+    color: #889ba1;
+    font-size: 12px;
+  }
+
+  /* line 32, sass/_320-up.scss */
+  p {
+    line-height: 20px;
+  }
+
+  /* line 36, sass/_320-up.scss */
+  p + p {
+    padding-top: 10px;
+  }
+
+  /* line 43, sass/_320-up.scss */
+  .admin-bar #container > header nav {
+    top: 28px;
+  }
+
+  /* line 50, sass/_320-up.scss */
+  #container {
+    width: 302px;
+    margin: 0 auto;
+    overflow: hidden;
+    *zoom: 1;
+    overflow: visible !important;
+  }
+  /* line 54, sass/_320-up.scss */
+  #container > header {
+    position: relative;
+  }
+  /* line 56, sass/_320-up.scss */
+  #container > header > hgroup {
+    background: url('/wp-content/themes/codyaswann/images/header.png?1327967384') 0 0 no-repeat scroll transparent;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 70px;
+    margin-top: 50px;
+    text-indent: -999px;
+  }
+  /* line 67, sass/_320-up.scss */
+  #container > header nav {
+    background: url('/wp-content/themes/codyaswann/images/nav-background.png?1327285002') 0 0 no-repeat scroll transparent;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    height: 44px;
+    left: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+  }
+  /* line 77, sass/_320-up.scss */
+  #container > header nav ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+    *zoom: 1;
+    margin: 0;
+    padding: 0 10px;
+  }
+  /* line 81, sass/_320-up.scss */
+  #container > header nav ul li {
+    list-style-image: none;
+    list-style-type: none;
+    margin-left: 0px;
+    white-space: nowrap;
+    display: inline;
+    float: left;
+    padding-left: 4px;
+    padding-right: 4px;
+    height: 34px;
+    margin-right: 30px;
+    margin-top: 10px;
+  }
+  /* line 48, ../../../../../../../../.rvm/gems/ruby-1.9.2-head@wpnetwork/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+  #container > header nav ul li:first-child, #container > header nav ul li.first {
+    padding-left: 0;
+  }
+  /* line 49, ../../../../../../../../.rvm/gems/ruby-1.9.2-head@wpnetwork/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+  #container > header nav ul li:last-child {
+    padding-right: 0;
+  }
+  /* line 50, ../../../../../../../../.rvm/gems/ruby-1.9.2-head@wpnetwork/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+  #container > header nav ul li.last {
+    padding-right: 0;
+  }
+  /* line 87, sass/_320-up.scss */
+  #container > header nav ul li.twitter {
+    margin-right: 0;
+    max-width: 140px;
+    overflow: hidden;
+  }
+  /* line 94, sass/_320-up.scss */
+  #container > header nav ul li.google-plus, #container > header nav ul li.facebook-profile {
+    display: none;
+  }
+  /* line 98, sass/_320-up.scss */
+  #container > header nav ul li.gunnertechnology {
+    float: right;
+    margin-right: 0;
+    margin-top: 3px;
+  }
+  /* line 102, sass/_320-up.scss */
+  #container > header nav ul li.gunnertechnology a {
+    background: url('/wp-content/themes/codyaswann/images/gunner-logo.png?1327285002') 0 0 no-repeat scroll transparent;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: block;
+    margin-top: 5px;
+    height: 30px;
+    text-indent: -999px;
+    width: 130px;
+  }
+  /* line 117, sass/_320-up.scss */
+  #container > footer {
+    clear: both;
+    margin-bottom: 40px;
+    margin-top: 20px;
+  }
+
+  /* line 126, sass/_320-up.scss */
+  #main {
+    overflow: hidden;
+    *zoom: 1;
+  }
+
+  /* line 130, sass/_320-up.scss */
+  .content {
+    display: inline;
+    float: left;
+    margin-right: 0;
+    width: 302px;
+  }
+  /* line 147, ../../../../../../../../.rvm/gems/ruby-1.9.2-head@wpnetwork/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+  * html .content {
+    overflow-x: hidden;
+  }
+
+  /* line 134, sass/_320-up.scss */
+  .social-buttons {
+    height: 24px;
+    overflow: hidden;
+  }
+
+  /* line 139, sass/_320-up.scss */
+  .widget-title {
+    color: white;
+    font-family: PublicGothicVintage, "Myriad Pro", Arial, sans-serif;
+    font-size: 24px;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+  }
+
+  /* line 144, sass/_320-up.scss */
+  #content_right_default {
+    font-size: 13px;
+    margin-top: 10px;
+  }
+  /* line 148, sass/_320-up.scss */
+  #content_right_default a {
+    color: #ec7844;
+    text-decoration: none;
+  }
+  /* line 18, ../../../../../../../../.rvm/gems/ruby-1.9.2-head@wpnetwork/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+  #content_right_default a:visited {
+    color: #ec7844;
+  }
+  /* line 21, ../../../../../../../../.rvm/gems/ruby-1.9.2-head@wpnetwork/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+  #content_right_default a:focus {
+    color: #0099ff;
+  }
+  /* line 24, ../../../../../../../../.rvm/gems/ruby-1.9.2-head@wpnetwork/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+  #content_right_default a:hover {
+    color: #0099ff;
+  }
+  /* line 27, ../../../../../../../../.rvm/gems/ruby-1.9.2-head@wpnetwork/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+  #content_right_default a:active {
+    color: #bf00ff;
+  }
+  /* line 4, ../../../../../../../../.rvm/gems/ruby-1.9.2-head@wpnetwork/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_hover-link.scss */
+  #content_right_default a:hover {
+    text-decoration: underline;
+  }
+  /* line 152, sass/_320-up.scss */
+  #content_right_default a.call-to-action {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+  /* line 162, sass/_320-up.scss */
+  #content_right_default .widget-container {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0px 0px 5px #333333;
+    -webkit-box-shadow: 0px 0px 5px #333333;
+    -o-box-shadow: 0px 0px 5px #333333;
+    box-shadow: 0px 0px 5px #333333;
+    background: url('/wp-content/themes/codyaswann/images/widget-bg.png?1327285002') repeat-y 0 0 scroll transparent;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    margin-top: 20px;
+  }
+  /* line 171, sass/_320-up.scss */
+  #content_right_default .widget-container:first-child {
+    background: url('/wp-content/themes/codyaswann/images/slider-content-bg.jpg?1327285002') no-repeat 0 0 scroll transparent;
+    margin-top: 0;
+  }
+  /* line 175, sass/_320-up.scss */
+  #content_right_default .widget-container:first-child .widget-title {
+    padding-bottom: 0;
+    text-align: center;
+  }
+  /* line 181, sass/_320-up.scss */
+  #content_right_default .widget-container .flickr-drop {
+    height: 175px;
+    overflow: hidden;
+  }
+  /* line 186, sass/_320-up.scss */
+  #content_right_default .widget-container#text-6 {
+    background: url('/wp-content/themes/codyaswann/images/alt-widget-bg.png?1327285001') no-repeat 0 0 scroll transparent;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #889ba1;
+  }
+  /* line 192, sass/_320-up.scss */
+  #content_right_default .widget-container.gunner-technology-youtube {
+    background: url('/wp-content/themes/codyaswann/images/alt-widget-bg.png?1327285001') repeat-y 0 0 scroll transparent;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+  }
+  /* line 197, sass/_320-up.scss */
+  #content_right_default .widget-container .widget-content {
+    padding: 10px;
+  }
+
+  /* line 203, sass/_320-up.scss */
+  .flickr-thumb {
+    display: inline-block;
+    margin-left: 14px;
+    margin-top: 10px;
+    border: 1px solid #ec7844;
+  }
+  /* line 209, sass/_320-up.scss */
+  .flickr-thumb:hover, .flickr-thumb:focus, .flickr-thumb:active {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    border-color: #0099ff;
+  }
+
+  /* line 218, sass/_320-up.scss */
+  .youtube-drop .youtube-video-gallery {
+    margin-top: 10px;
+  }
+  /* line 222, sass/_320-up.scss */
+  .youtube-drop .long-description {
+    display: none;
+  }
+  /* line 226, sass/_320-up.scss */
+  .youtube-drop .image-wrapper {
+    border: 1px solid #ec7844;
+  }
+  /* line 230, sass/_320-up.scss */
+  .youtube-drop .image-wrapper:hover, .youtube-drop .image-wrapper:focus, .youtube-drop .image-wrapper:active {
+    border-color: #0099ff;
+  }
+
+  /* line 237, sass/_320-up.scss */
+  .gunner-technology-youtube {
+    display: none;
+  }
+
+  /* line 241, sass/_320-up.scss */
+  li[data-href] {
+    cursor: pointer;
+  }
+}
+@media (min-width:480px) {
+  /* line 8, sass/_480-up.scss */
+  #container {
+    width: 470px;
+    margin: 0 auto;
+    overflow: hidden;
+    *zoom: 1;
+  }
+  /* line 11, sass/_480-up.scss */
+  #container > header > hgroup {
+    height: 109px;
+  }
+
+  /* line 17, sass/_480-up.scss */
+  .content {
+    display: inline;
+    float: left;
+    margin-right: 0;
+    width: 470px;
+  }
+  /* line 147, ../../../../../../../../.rvm/gems/ruby-1.9.2-head@wpnetwork/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+  * html .content {
+    overflow-x: hidden;
+  }
+}
+@media (min-width:960px) {
+  /* line 8, sass/_960-up.scss */
+  #container {
+    width: 950px;
+    margin: 0 auto;
+    overflow: hidden;
+    *zoom: 1;
+  }
+  /* line 11, sass/_960-up.scss */
+  #container > header > hgroup {
+    text-indent: -119988px;
+    overflow: hidden;
+    text-align: left;
+    background-image: url('/wp-content/themes/codyaswann/images/header.png?1327967384');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 658px;
+    height: 158px;
+  }
+  /* line 19, sass/_960-up.scss */
+  #container > header nav ul li.google-plus, #container > header nav ul li.facebook-profile {
+    display: list-item;
+  }
+  /* line 23, sass/_960-up.scss */
+  #container > header nav ul li.gunnertechnology {
+    margin-right: 30px;
+    margin-top: -2px;
+  }
+  /* line 26, sass/_960-up.scss */
+  #container > header nav ul li.gunnertechnology a {
+    text-indent: -119988px;
+    overflow: hidden;
+    text-align: left;
+    background-image: url('/wp-content/themes/codyaswann/images/gunner-logo.png?1327285002');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 173px;
+    height: 39px;
+  }
+
+  /* line 36, sass/_960-up.scss */
+  .content {
+    display: inline;
+    float: left;
+    margin-right: 0;
+    width: 950px;
+  }
+  /* line 147, ../../../../../../../../.rvm/gems/ruby-1.9.2-head@wpnetwork/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+  * html .content {
+    overflow-x: hidden;
+  }
+  /* line 38, sass/_960-up.scss */
+  .content .article-list {
+    display: inline;
+    float: left;
+    margin-right: 10px;
+    width: 550px;
+  }
+  /* line 147, ../../../../../../../../.rvm/gems/ruby-1.9.2-head@wpnetwork/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+  * html .content .article-list {
+    overflow-x: hidden;
+  }
+  /* line 41, sass/_960-up.scss */
+  .content > aside {
+    display: inline;
+    float: left;
+    margin-right: 0;
+    width: 390px;
+  }
+  /* line 147, ../../../../../../../../.rvm/gems/ruby-1.9.2-head@wpnetwork/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+  * html .content > aside {
+    overflow-x: hidden;
+  }
+
+  /* line 48, sass/_960-up.scss */
+  #lifestream ol li {
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+  /* line 53, sass/_960-up.scss */
+  #lifestream ol li:hover, #lifestream ol li:focus, #lifestream ol li:active {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  /* line 62, sass/_960-up.scss */
+  .flickr-thumb {
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+  /* line 65, sass/_960-up.scss */
+  .flickr-thumb:hover, .flickr-thumb:focus, .flickr-thumb:active {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  /* line 70, sass/_960-up.scss */
+  .gunner-technology-youtube {
+    display: block;
+  }
+}

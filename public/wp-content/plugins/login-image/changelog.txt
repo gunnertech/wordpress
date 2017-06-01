@@ -1,0 +1,63 @@
+Plugin Name: Login Image
+Author: Andrew Billits, Ulrich Sossou
+
+Change Log:
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+
+1.1 - 12/13/2011
+----------------------------------------------------------------------
+- WordPress 3.3 compatibility
+
+1.0.9.1 - 07/21/2011
+----------------------------------------------------------------------
+- Bug fix: fix for image link and title on single site installs
+
+1.0.9 - 02/18/2011
+----------------------------------------------------------------------
+- Bug fix: fix admin page permission on Singlesite
+
+1.0.8 - 02/18/2011
+----------------------------------------------------------------------
+- Enhancement: Changed the link of the image as well as hover text to
+homepage url and site name when in singlesite
+- Enhancement: support for SSL admin
+- Bug fix: fix image upload when image dimensions are lower than
+310 * 70
+
+1.0.7 - 02/07/2011
+----------------------------------------------------------------------
+- Enhancement: singlesite support
+- Enhancement: clarify max image size on upload page
+- Bug fix: error with image upload
+
+1.0.6 - 01/28/2011
+----------------------------------------------------------------------
+- Enhancement: better images handling
+- Bug fix: super admin menu
+
+1.0.5 - 01/25/2011
+----------------------------------------------------------------------
+- Enhancement: allow using transparent png images
+- Bug fix: Fatal error
+
+1.0.4 - 01/14/2011
+----------------------------------------------------------------------
+- 3.1+ compatibility update
+- Internationalization.
+
+1.0.3 - 06/01/2010
+----------------------------------------------------------------------
+- 3.0+ compatibility update
+
+1.0.2 - 05/14/2009
+----------------------------------------------------------------------
+- 2.7.1 Compatibility Update
+
+1.0.0 - 02/16/2009
+----------------------------------------------------------------------
+- Initial Release.
+
+18742-1323786959
+
+58108-1327875970

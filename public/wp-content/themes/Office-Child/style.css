@@ -1,0 +1,11 @@
+/*
+Theme Name: Office Child Theme
+Theme URI: http://example.com/
+Description: Sample Office Child Theme
+Author: Your name here
+Author URI: http://example.com/about/
+Template: Office
+Version: 0.1
+*/
+
+@import url("../Office/style.css");

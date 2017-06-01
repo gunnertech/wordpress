@@ -1,0 +1,36 @@
+=== Gunner Technology Authorship ===
+Contributors: codyswann, gunnertech
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=S6HYHZA546HLW&lc=US&item_name=Gunner%20Technology&item_number=google%2dreferrer%2dchecker&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted
+Tags: twitter, instagram, social
+Requires at least: 1.0.0
+Tested up to: 1.0.0
+Stable tag: 1.0.0
+
+The Posthost plugin allows WordPress authors to embed their Posthost feed into their WordPress sites.
+
+== Description ==
+
+The Posthost plugin allows WordPress authors to embed their Posthost feed into their WordPress sites.
+
+[posthost  http://www.posthost.co/]
+
+Requires WordPress 3.0 and PHP 5. 
+
+
+== Installation ==
+
+1. Upload the files to the `/wp-content/plugins/posthost/` directory
+1. Activate the "Posthoust" plugin through the 'Plugins' menu in WordPress
+
+== Frequently Asked Questions ==
+
+
+== Screenshots ==
+
+1. Author Page showing various options to connect with the author.
+2. Post Page showing various options to connect with the author.
+
+== Changelog ==
+
+= 1.0.0 =
+* Initial release

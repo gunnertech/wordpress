@@ -1,0 +1,20 @@
+.gt-pin {
+  float: left;
+  margin: 10px;
+  width: 222px;
+}
+
+.gt-category-pins li {
+  float: left;
+  margin: 10px;
+  width: 111px;
+}
+
+.thumbnails.gt-category-pins,
+.gt-category-pins {
+  margin-left: 0;
+}
+
+.infinite-scroll-indicator p:after {
+  content: '↓ Loading More Pins ↓';
+}

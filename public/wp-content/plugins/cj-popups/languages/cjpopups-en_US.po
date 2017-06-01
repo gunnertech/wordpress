@@ -1,0 +1,2560 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: CSSJockey Unlimited Pop-ups\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Tue Apr 21 2015 09:52:54 GMT+0530 (IST)\n"
+"PO-Revision-Date: Tue Apr 21 2015 09:53:14 GMT+0530 (IST)\n"
+"Last-Translator: mohitaneja <admin@cssjockey.com>\n"
+"Language-Team: \n"
+"Language: English\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Loco-Target-Locale: en_US"
+
+#: ../item_setup.php:38 ../options/cjpopups_configuration.php:21
+msgid "Plugin Configuration"
+msgstr ""
+
+#: ../item_setup.php:39
+msgid "Manage Pop-Ups"
+msgstr ""
+
+#: ../item_setup.php:137
+msgid "Pop-ups"
+msgstr ""
+
+#: ../item_setup.php:138
+msgid "Pop-up"
+msgstr ""
+
+#: ../item_setup.php:139
+msgid "Add New"
+msgstr ""
+
+#: ../item_setup.php:140
+msgid "Add New Pop-up"
+msgstr ""
+
+#: ../item_setup.php:141
+msgid "Edit Pop-up"
+msgstr ""
+
+#: ../item_setup.php:142
+msgid "New Pop-up"
+msgstr ""
+
+#: ../item_setup.php:143
+msgid "View Pop-up"
+msgstr ""
+
+#: ../item_setup.php:144
+msgid "Search Pop-ups"
+msgstr ""
+
+#: ../item_setup.php:145
+msgid "No pop-ups found"
+msgstr ""
+
+#: ../item_setup.php:146
+msgid "No pop-ups found in Trash"
+msgstr ""
+
+#: ../framework/framework.php:443
+msgid "Opiton ID not defined, please check code."
+msgstr ""
+
+#: ../framework/framework.php:1050
+msgid "Just now"
+msgstr ""
+
+#: ../framework/framework.php:1061
+msgid "year"
+msgstr ""
+
+#: ../framework/framework.php:1062
+msgid "month"
+msgstr ""
+
+#: ../framework/framework.php:1063
+msgid "day"
+msgstr ""
+
+#: ../framework/framework.php:1064
+msgid "hour"
+msgstr ""
+
+#: ../framework/framework.php:1065
+msgid "minute"
+msgstr ""
+
+#: ../framework/framework.php:1066
+msgid "second"
+msgstr ""
+
+#: ../framework/framework.php:1069
+msgid "years"
+msgstr ""
+
+#: ../framework/framework.php:1070
+msgid "months"
+msgstr ""
+
+#: ../framework/framework.php:1071
+msgid "days"
+msgstr ""
+
+#: ../framework/framework.php:1072
+msgid "hours"
+msgstr ""
+
+#: ../framework/framework.php:1073
+msgid "minutes"
+msgstr ""
+
+#: ../framework/framework.php:1074
+msgid "seconds"
+msgstr ""
+
+#: ../framework/framework.php:1080
+msgid "ago"
+msgstr ""
+
+#: ../framework/framework.php:1194 ../framework/framework.php:1258
+#, php-format
+msgid "File size must be below %s kilobytes."
+msgstr ""
+
+#: ../framework/framework.php:1200 ../framework/framework.php:1264
+#, php-format
+msgid "Image width must be %s pixels."
+msgstr ""
+
+#: ../framework/framework.php:1204 ../framework/framework.php:1268
+#, php-format
+msgid "Image height must be %s pixels."
+msgstr ""
+
+#: ../framework/framework.php:1208 ../framework/framework.php:1272
+msgid "Invalid file type."
+msgstr ""
+
+#: ../framework/framework.php:1369
+msgid "Oops!! Page not found."
+msgstr ""
+
+#: ../framework/framework.php:1370 ../framework/framework.php:1380
+#, php-format
+msgid "Archive for <span class=\"highlight-term\">\"%s\"</span>"
+msgstr ""
+
+#: ../framework/framework.php:1372
+msgid "Articles posted by: "
+msgstr ""
+
+#: ../framework/framework.php:1373
+#, php-format
+msgid "Archive for <span class=\"highlight-term\">\"%s\"</span> category"
+msgstr ""
+
+#: ../framework/framework.php:1375
+msgid "Recent Blog Posts"
+msgstr ""
+
+#: ../framework/framework.php:1377
+#, php-format
+msgid "Search results for <span class=\"highlight-term\">\"%s\"</span>"
+msgstr ""
+
+#: ../framework/framework.php:1379
+#, php-format
+msgid "Posts tagged <span class=\"highlight-term\">\"%s\"</span>"
+msgstr ""
+
+#: ../framework/framework.php:1681
+msgid "Settings"
+msgstr ""
+
+#: ../framework/framework.php:1682 ../framework/includes/admin_page.php:59
+msgid "Uninstall"
+msgstr ""
+
+#: ../framework/framework.php:1720 ../framework/includes/admin_form.php:287 ..
+#: framework/includes/admin_form.php:376 ../framework/includes/admin_form.php:
+#: 397 ../framework/includes/admin_form.php:418 ../framework/includes/admin_form.
+#: php:441 ../framework/includes/admin_form.php:464 ..
+#: framework/includes/admin_form.php:489 ../framework/includes/admin_form.php:
+#: 510 ../framework/includes/admin_form.php:531 ../framework/includes/admin_form.
+#: php:561 ../framework/includes/admin_form.php:599 ..
+#: framework/includes/admin_form.php:623 ../framework/includes/admin_form.php:
+#: 644 ../framework/includes/admin_form.php:666 ../framework/includes/admin_form.
+#: php:687 ../framework/includes/admin_form.php:711 ..
+#: framework/includes/admin_form.php:732 ../framework/includes/admin_form_raw.
+#: php:282 ../framework/includes/admin_form_raw.php:421 ..
+#: framework/includes/admin_form_raw.php:442 ..
+#: framework/includes/admin_form_raw.php:463 ..
+#: framework/includes/admin_form_raw.php:486 ..
+#: framework/includes/admin_form_raw.php:509 ..
+#: framework/includes/admin_form_raw.php:534 ..
+#: framework/includes/admin_form_raw.php:555 ..
+#: framework/includes/admin_form_raw.php:576 ..
+#: framework/includes/admin_form_raw.php:606 ..
+#: framework/includes/admin_form_raw.php:645 ..
+#: framework/includes/admin_form_raw.php:668 ..
+#: framework/includes/admin_form_raw.php:689 ..
+#: framework/includes/admin_form_raw.php:711 ..
+#: framework/includes/admin_form_raw.php:732 ..
+#: framework/includes/admin_form_raw.php:754 ..
+#: framework/includes/admin_form_raw.php:775 ..
+#: framework/includes/admin_form_raw.php:799 ..
+#: framework/includes/admin_form_raw.php:820
+msgid "None"
+msgstr ""
+
+#: ../framework/framework.php:1788 ../framework/framework.php:1791 ..
+#: framework/framework.php:1842
+msgid "No locations found."
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:28
+msgid "Test Metabox"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:36 ..
+#: framework/assets/admin/helpers/metabox/example-functions.php:270
+msgid "Test Text"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:37 ..
+#: framework/assets/admin/helpers/metabox/example-functions.php:48 ..
+#: framework/assets/admin/helpers/metabox/example-functions.php:55 ..
+#: framework/assets/admin/helpers/metabox/example-functions.php:62 ..
+#: framework/assets/admin/helpers/metabox/example-functions.php:70 ..
+#: framework/assets/admin/helpers/metabox/example-functions.php:77 ..
+#: framework/assets/admin/helpers/metabox/example-functions.php:89 ..
+#: framework/assets/admin/helpers/metabox/example-functions.php:95 ..
+#: framework/assets/admin/helpers/metabox/example-functions.php:102 ..
+#: framework/assets/admin/helpers/metabox/example-functions.php:117 ..
+#: framework/assets/admin/helpers/metabox/example-functions.php:125 ..
+#: framework/assets/admin/helpers/metabox/example-functions.php:132 ..
+#: framework/assets/admin/helpers/metabox/example-functions.php:138 ..
+#: framework/assets/admin/helpers/metabox/example-functions.php:144 ..
+#: framework/assets/admin/helpers/metabox/example-functions.php:156 ..
+#: framework/assets/admin/helpers/metabox/example-functions.php:167 ..
+#: framework/assets/admin/helpers/metabox/example-functions.php:178 ..
+#: framework/assets/admin/helpers/metabox/example-functions.php:189 ..
+#: framework/assets/admin/helpers/metabox/example-functions.php:197 ..
+#: framework/assets/admin/helpers/metabox/example-functions.php:204 ..
+#: framework/assets/admin/helpers/metabox/example-functions.php:212 ..
+#: framework/assets/admin/helpers/metabox/example-functions.php:218 ..
+#: framework/assets/admin/helpers/metabox/example-functions.php:230 ..
+#: framework/assets/admin/helpers/metabox/example-functions.php:271 ..
+#: framework/assets/admin/helpers/metabox/example-functions.php:337 ..
+#: framework/assets/admin/helpers/metabox/example-functions.php:344 ..
+#: framework/assets/admin/helpers/metabox/example-functions.php:351 ..
+#: framework/assets/admin/helpers/metabox/example-functions.php:357 ..
+#: framework/assets/admin/helpers/metabox/example-functions.php:363 ..
+#: framework/assets/admin/helpers/metabox/example-functions.php:369 ..
+#: framework/assets/admin/helpers/metabox/example-functions.php:375 ..
+#: framework/assets/admin/helpers/metabox/example-functions.php:393
+msgid "field description (optional)"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:47
+msgid "Test Text Small"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:54
+msgid "Test Text Medium"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:61
+msgid "Website URL"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:69
+msgid "Test Text Email"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:76
+msgid "Test Time"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:82 ..
+#: framework/assets/admin/helpers/metabox/example-functions.php:83
+msgid "Time zone"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:88
+msgid "Test Date Picker"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:94
+msgid "Test Date Picker (UNIX timestamp)"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:101
+msgid "Test Date/Time Picker Combo (UNIX timestamp)"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:116
+msgid "Test Money"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:124
+msgid "Test Color Picker"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:131
+msgid "Test Text Area"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:137
+msgid "Test Text Area Small"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:143
+msgid "Test Text Area for Code"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:149
+msgid "Test Title Weeeee"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:150
+msgid "This is a title description"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:155
+msgid "Test Select"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:160 ..
+#: framework/assets/admin/helpers/metabox/example-functions.php:171 ..
+#: framework/assets/admin/helpers/metabox/example-functions.php:182
+msgid "Option One"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:161 ..
+#: framework/assets/admin/helpers/metabox/example-functions.php:172 ..
+#: framework/assets/admin/helpers/metabox/example-functions.php:183
+msgid "Option Two"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:162 ..
+#: framework/assets/admin/helpers/metabox/example-functions.php:173 ..
+#: framework/assets/admin/helpers/metabox/example-functions.php:184
+msgid "Option Three"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:166
+msgid "Test Radio inline"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:177
+msgid "Test Radio"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:188
+msgid "Test Taxonomy Radio"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:196
+msgid "Test Taxonomy Select"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:203
+msgid "Test Taxonomy Multi Checkbox"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:211
+msgid "Test Checkbox"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:217
+msgid "Test Multi Checkbox"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:222
+msgid "Check One"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:223
+msgid "Check Two"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:224
+msgid "Check Three"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:229
+msgid "Test wysiwyg"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:236
+msgid "Test Image"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:237
+msgid "Upload an image or enter a URL."
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:242
+msgid "Multiple Files"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:243
+msgid "Upload or add multiple images/attachments."
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:249
+msgid "oEmbed"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:250
+msgid ""
+"Enter a youtube, twitter, or instagram URL. Supports services listed at <a "
+"href=\"http://codex.wordpress.org/Embeds\">http://codex.wordpress."
+"org/Embeds</a>."
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:262
+msgid "About Page Metabox"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:283
+msgid "Repeating Field Group"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:289
+msgid "Generates reusable form entries"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:291
+msgid "Entry {#}"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:292
+msgid "Add Another Entry"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:293
+msgid "Remove Entry"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:330
+msgid "User Profile Metabox"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:336
+msgid "Extra Info"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:343
+msgid "Avatar"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:350
+msgid "Facebook URL"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:356
+msgid "Twitter URL"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:362
+msgid "Google+ URL"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:368
+msgid "Linkedin URL"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:374
+msgid "User Field"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:388
+msgid "Theme Options Metabox"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:392
+msgid "Site Background Color"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/init.php:258
+msgid "Clear"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/init.php:259
+msgid "Default"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/init.php:260
+msgid "Select Color"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/init.php:261
+msgid "Current Color"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/init.php:288
+msgid "Select / Deselect All"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/init.php:1179
+msgid "Save"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/extensions/address-by-zipcode.php:20
+msgid "Zip/Postal Code"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/extensions/address-by-zipcode.php:21
+msgid "Type Postal Code to search for address"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/extensions/address-by-zipcode.php:24
+msgid "Type postal code to find address."
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/extensions/address-by-zipcode.php:26
+msgid "Address Line 1"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/extensions/address-by-zipcode.php:27
+msgid "Address Line 2"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/extensions/address-by-zipcode.php:28
+msgid "City"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/extensions/address-by-zipcode.php:29
+msgid "State"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/extensions/address-by-zipcode.php:30
+msgid "Country"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/extensions/address-by-zipcode.php:32
+#: ../framework/assets/admin/helpers/metabox/extensions/lnglat.php:14
+msgid "Latitude"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/extensions/address-by-zipcode.php:33
+#: ../framework/assets/admin/helpers/metabox/extensions/lnglat.php:15
+msgid "Longitude"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/extensions/background_properties.php:
+#: 18
+msgid "Backgound Repeat"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/extensions/background_properties.php:
+#: 31
+msgid "Backgound Size"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/extensions/background_properties.php:
+#: 44
+msgid "Backgound Position"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/extensions/background_properties.php:
+#: 57
+msgid "Backgound Attachment"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/extensions/border.php:20
+msgid "Border Top (px)"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/extensions/border.php:25
+msgid "Border Right (px)"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/extensions/border.php:30
+msgid "Border Bottom (px)"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/extensions/border.php:35
+msgid "Border Left (px)"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/extensions/border.php:40
+msgid "Border Style"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/extensions/border.php:53
+msgid "Border Color (#HEX)"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/extensions/padding_margin.php:18
+msgid "Padding Top (px)"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/extensions/padding_margin.php:23
+msgid "Padding Right (px)"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/extensions/padding_margin.php:28
+msgid "Padding Bottom (px)"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/extensions/padding_margin.php:33
+msgid "Padding Left (px)"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/extensions/padding_margin.php:59
+msgid "Margin Top (px)"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/extensions/padding_margin.php:64
+msgid "Margin Right (px)"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/extensions/padding_margin.php:69
+msgid "Margin Bottom (px)"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/extensions/padding_margin.php:74
+msgid "Margin Left (px)"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/extensions/working_hours.php:13
+msgid "Day"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/extensions/working_hours.php:15
+msgid "Starttime"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/extensions/working_hours.php:16
+msgid "Endtime"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/extensions/working_hours.php:28
+msgid "Start Time"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/extensions/working_hours.php:29
+msgid "End Time"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/helpers/cmb_Meta_Box_ajax.php:47
+msgid "Please Try Again"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/helpers/cmb_Meta_Box_ajax.php:131
+msgid "Remove Embed"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/helpers/cmb_Meta_Box_ajax.php:134
+#, php-format
+msgid "No oEmbed Results Found for %s. View more info at"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/helpers/cmb_Meta_Box_field.php:459
+msgid "Add Group"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/helpers/cmb_Meta_Box_field.php:460
+msgid "Remove Group"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/helpers/cmb_Meta_Box_types.php:250
+msgid "Add Row"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/helpers/cmb_Meta_Box_types.php:306 ..
+#: framework/assets/admin/helpers/metabox/helpers/cmb_Meta_Box_types.php:706 ..
+#: framework/assets/admin/helpers/metabox/helpers/cmb_Meta_Box_types.php:768
+msgid "Remove"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/helpers/cmb_Meta_Box_types.php:601 ..
+#: framework/assets/admin/helpers/metabox/helpers/cmb_Meta_Box_types.php:635
+msgid "No terms"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/helpers/cmb_Meta_Box_types.php:674 ..
+#: framework/assets/admin/helpers/metabox/helpers/cmb_Meta_Box_types.php:728
+msgid "Add or Upload File"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/helpers/cmb_Meta_Box_types.php:695 ..
+#: framework/assets/admin/helpers/metabox/helpers/cmb_Meta_Box_types.php:760
+msgid "Remove Image"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/helpers/cmb_Meta_Box_types.php:706 ..
+#: framework/assets/admin/helpers/metabox/helpers/cmb_Meta_Box_types.php:768
+msgid "File:"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/helpers/cmb_Meta_Box_types.php:706 ..
+#: framework/assets/admin/helpers/metabox/helpers/cmb_Meta_Box_types.php:768
+msgid "Download"
+msgstr ""
+
+#: ../framework/includes/admin_ajax.php:55 ../framework/includes/shortcode-
+#: generator-backup/cj_shortcode_generator_panel.php:49
+msgid "Select Shortcode"
+msgstr ""
+
+#: ../framework/includes/admin_ajax.php:102
+msgid "Shortcode Settings"
+msgstr ""
+
+#: ../framework/includes/admin_ajax.php:123 ../framework/includes/sample-
+#: code/metabox_sample.php:56
+msgid "Content"
+msgstr ""
+
+#: ../framework/includes/admin_ajax.php:151
+msgid "Insert Shortcode"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:32
+msgid "Sorry, your nonce did not verify."
+msgstr ""
+
+#: ../framework/includes/admin_form.php:37
+msgid "Settings saved successfully."
+msgstr ""
+
+#: ../framework/includes/admin_form.php:83 ../framework/includes/admin_form.php:84
+msgid ""
+"Are you sure?\n"
+"This canont be undone."
+msgstr ""
+
+#: ../framework/includes/admin_form.php:83
+msgid "Reset Section"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:84
+msgid "Reset All"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:189 ../framework/includes/admin_form.php:
+#: 189 ../framework/includes/admin_form_raw.php:149 ..
+#: framework/includes/admin_form_raw.php:149 ..
+#: framework/includes/admin_form_raw.php:180 ..
+#: framework/includes/admin_form_raw.php:180
+msgid "Top"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:190 ../framework/includes/admin_form.php:
+#: 190 ../framework/includes/admin_form_raw.php:150 ..
+#: framework/includes/admin_form_raw.php:150 ..
+#: framework/includes/admin_form_raw.php:181 ..
+#: framework/includes/admin_form_raw.php:181
+msgid "Bottom"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:191 ../framework/includes/admin_form.php:
+#: 191 ../framework/includes/admin_form_raw.php:151 ..
+#: framework/includes/admin_form_raw.php:151 ..
+#: framework/includes/admin_form_raw.php:182 ..
+#: framework/includes/admin_form_raw.php:182
+msgid "Left"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:192 ../framework/includes/admin_form.php:
+#: 192 ../framework/includes/admin_form_raw.php:152 ..
+#: framework/includes/admin_form_raw.php:152 ..
+#: framework/includes/admin_form_raw.php:183 ..
+#: framework/includes/admin_form_raw.php:183 ..
+#: framework/includes/admin_form_raw.php:184
+msgid "Right"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:474 ../framework/includes/admin_form_raw.
+#: php:519
+msgid "No custom post types found"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:820 ../framework/includes/admin_form.php:
+#: 1165 ../framework/includes/admin_form_raw.php:908 ..
+#: framework/includes/admin_form_raw.php:1279
+msgid "Upload File"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:853 ../framework/includes/admin_form_raw.
+#: php:942
+msgid "Upload Files"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1005 ../framework/includes/admin_form.php:
+#: 1022 ../framework/includes/admin_form.php:1048 ..
+#: framework/includes/admin_form.php:1176 ../framework/includes/admin_form.php:
+#: 1201 ../framework/includes/admin_form.php:1228 ..
+#: framework/includes/admin_form.php:1251 ../framework/includes/admin_form_raw.
+#: php:1119 ../framework/includes/admin_form_raw.php:1136 ..
+#: framework/includes/admin_form_raw.php:1162 ..
+#: framework/includes/admin_form_raw.php:1290 ..
+#: framework/includes/admin_form_raw.php:1315 ..
+#: framework/includes/admin_form_raw.php:1342 ..
+#: framework/includes/admin_form_raw.php:1365
+msgid "Inherit"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1006 ../framework/includes/admin_form_raw.
+#: php:1120
+msgid "Bold"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1007 ../framework/includes/admin_form_raw.
+#: php:1121
+msgid "Bolder"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1008 ../framework/includes/admin_form.php:
+#: 1025 ../framework/includes/admin_form_raw.php:1122 ..
+#: framework/includes/admin_form_raw.php:1139
+msgid "Normal"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1009 ../framework/includes/admin_form_raw.
+#: php:1123
+msgid "Lighter"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1010 ../framework/includes/admin_form_raw.
+#: php:1124
+msgid "100"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1011 ../framework/includes/admin_form_raw.
+#: php:1125
+msgid "200"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1012 ../framework/includes/admin_form_raw.
+#: php:1126
+msgid "300"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1013 ../framework/includes/admin_form_raw.
+#: php:1127
+msgid "400"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1014 ../framework/includes/admin_form_raw.
+#: php:1128
+msgid "500"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1015 ../framework/includes/admin_form_raw.
+#: php:1129
+msgid "600"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1016 ../framework/includes/admin_form_raw.
+#: php:1130
+msgid "700"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1017 ../framework/includes/admin_form_raw.
+#: php:1131
+msgid "800"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1018 ../framework/includes/admin_form_raw.
+#: php:1132
+msgid "900"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1023 ../framework/includes/admin_form_raw.
+#: php:1137
+msgid "Italic"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1024 ../framework/includes/admin_form_raw.
+#: php:1138
+msgid "Oblique"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1071 ../framework/includes/admin_form_raw.
+#: php:1185
+msgid "Family:"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1076 ../framework/includes/admin_form_raw.
+#: php:1190
+msgid "Size:"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1083 ../framework/includes/admin_form_raw.
+#: php:1197
+msgid "Weight:"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1088 ../framework/includes/admin_form_raw.
+#: php:1202
+msgid "Style:"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1093 ../framework/includes/admin_form_raw.
+#: php:1207
+msgid "Line Height:"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1144 ../framework/includes/admin_form_raw.
+#: php:1258
+msgid "Transparent"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1164 ../framework/includes/admin_form_raw.
+#: php:1278
+msgid "Upload background image"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1177 ../framework/includes/admin_form_raw.
+#: php:1291
+msgid "Repeat All"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1178 ../framework/includes/admin_form_raw.
+#: php:1292
+msgid "Repeat Horizontal"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1179 ../framework/includes/admin_form_raw.
+#: php:1293
+msgid "Repeat Vertical"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1180 ../framework/includes/admin_form_raw.
+#: php:1294
+msgid "Do not repeat"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1190 ../framework/includes/admin_form_raw.
+#: php:1304
+msgid "Background Repeat"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1202 ../framework/includes/admin_form_raw.
+#: php:1316
+msgid "Cover"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1203 ../framework/includes/admin_form_raw.
+#: php:1317
+msgid "Contain"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1213 ../framework/includes/admin_form_raw.
+#: php:1327
+msgid "Background Size"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1229 ../framework/includes/admin_form_raw.
+#: php:1343
+msgid "Fixed"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1230 ../framework/includes/admin_form_raw.
+#: php:1344
+msgid "Scroll"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1240 ../framework/includes/admin_form_raw.
+#: php:1354
+msgid "Background Attachment"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1252 ../framework/includes/admin_form_raw.
+#: php:1366
+msgid "top left"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1253 ../framework/includes/admin_form_raw.
+#: php:1367
+msgid "top center"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1254 ../framework/includes/admin_form_raw.
+#: php:1368
+msgid "top right"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1255 ../framework/includes/admin_form_raw.
+#: php:1369
+msgid "bottom left"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1256 ../framework/includes/admin_form_raw.
+#: php:1370
+msgid "bottom center"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1257 ../framework/includes/admin_form_raw.
+#: php:1371
+msgid "bottom right"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1258 ../framework/includes/admin_form_raw.
+#: php:1372
+msgid "center left"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1259 ../framework/includes/admin_form_raw.
+#: php:1373
+msgid "center center"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1260 ../framework/includes/admin_form_raw.
+#: php:1374
+msgid "center right"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1270 ../framework/includes/admin_form_raw.
+#: php:1384
+msgid "Background Position"
+msgstr ""
+
+#: ../framework/includes/admin_form_raw.php:184
+msgid "Style"
+msgstr ""
+
+#: ../framework/includes/admin_form_raw.php:185
+msgid "Color"
+msgstr ""
+
+#: ../framework/includes/admin_form_raw.php:301 ..
+#: framework/includes/admin_form_raw.php:326
+msgid "Select"
+msgstr ""
+
+#: ../framework/includes/admin_form_raw.php:957
+msgid "Choose File"
+msgstr ""
+
+#: ../framework/includes/admin_form_raw.php:969
+msgid "Choose Files"
+msgstr ""
+
+#: ../framework/includes/admin_page.php:44
+msgid ""
+"Dropdown key language strings not found in item_setup.php. Specify an array "
+"$cjpopups_item_vars[\"localize_variables\"]"
+msgstr ""
+
+#: ../framework/includes/admin_page.php:50
+#, php-format
+msgid "%s Settings"
+msgstr ""
+
+#: ../framework/includes/admin_page.php:56 ../framework/includes/sample-
+#: code/core_maintenance_mode.php:11 ../framework/includes/sample-
+#: code/core_maintenance_mode.php:17
+msgid "Maintenance Mode"
+msgstr ""
+
+#: ../framework/includes/admin_page.php:57
+msgid "Check for Upgrades"
+msgstr ""
+
+#: ../framework/includes/admin_page.php:58
+msgid "Backup &amp; Restore"
+msgstr ""
+
+#: ../framework/includes/admin_page.php:85
+msgid "Javascript must be enabled."
+msgstr ""
+
+#: ../framework/includes/admin_page.php:100
+#, php-format
+msgid "<b>%s.php</b> not found in options or addons directory."
+msgstr ""
+
+#: ../framework/includes/cj-products.php:29
+msgid "Other CSSJockey Products"
+msgstr ""
+
+#: ../framework/includes/cj-products.php:45 ../framework/includes/cj-products.php:
+#: 56
+msgid "View Details"
+msgstr ""
+
+#: ../framework/includes/cj-products.php:62
+#, php-format
+msgid "No products or add-ons found matched your query. <a href=\"%s\">View All</a>"
+msgstr ""
+
+#: ../framework/includes/db_setup.php:63
+#, php-format
+msgid ""
+"<p><strong>ERROR</strong>: Duplicate options found!  <br /><b>%s <br "
+"/>(%s)</b></p>"
+msgstr ""
+
+#: ../framework/includes/shortcode_form.php:53
+msgid "Please select"
+msgstr ""
+
+#: ../framework/includes/shortcode_generator.php:37 ..
+#: framework/includes/shortcode_generator.php:58
+msgid "Select shortcode"
+msgstr ""
+
+#: ../framework/includes/shortcode_generator.php:64
+msgid "Options"
+msgstr ""
+
+#: ../framework/includes/shortcode_generator.php:102 ..
+#: framework/includes/shortcode_generator.php:121
+msgid "Please Select "
+msgstr ""
+
+#: ../framework/includes/shortcode_generator.php:152
+#, php-format
+msgid "Shortcode Generator (%s)"
+msgstr ""
+
+#: ../framework/includes/shortcode_generator.php:159
+msgid "Choose a shortcode"
+msgstr ""
+
+#: ../framework/includes/widget_options_form.php:57 ..
+#: framework/includes/widget_options_form.php:76
+#, php-format
+msgid "Select %s"
+msgstr ""
+
+#: ../framework/includes/widget_options_form.php:98
+msgid "No options available for this widget."
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:196 ..
+#: framework/includes/install-plugins/register_plugins.php:65
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:197 ..
+#: framework/includes/install-plugins/register_plugins.php:66
+msgid "Install Plugins"
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:198 ..
+#: framework/includes/install-plugins/register_plugins.php:67
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:199
+msgid "Something went wrong."
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:200
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:201
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:202 ..
+#: framework/includes/install-plugins/register_plugins.php:71
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s plugins."
+" Contact the administrator of this site for help on getting the plugins "
+"installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:203 ..
+#: framework/includes/install-plugins/register_plugins.php:72
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:204 ..
+#: framework/includes/install-plugins/register_plugins.php:73
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:205 ..
+#: framework/includes/install-plugins/register_plugins.php:74
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s plugin."
+" Contact the administrator of this site for help on getting the plugin "
+"activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:206
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:207 ..
+#: framework/includes/install-plugins/register_plugins.php:76
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:208 ..
+#: framework/includes/install-plugins/register_plugins.php:77
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:209 ..
+#: framework/includes/install-plugins/register_plugins.php:78
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:210 ..
+#: framework/includes/install-plugins/register_plugins.php:79
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:211
+msgid "Return to the dashboard"
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:212 ..
+#: framework/includes/install-plugins/class-tgm-plugin-activation.php:1951 ..
+#: framework/includes/install-plugins/register_plugins.php:80
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:213 ..
+#: framework/includes/install-plugins/class-tgm-plugin-activation.php:1638
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:214
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:215
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:544 ..
+#: framework/includes/install-plugins/class-tgm-plugin-activation.php:544 ..
+#: framework/includes/install-plugins/class-tgm-plugin-activation.php:2168 ..
+#: framework/includes/install-plugins/class-tgm-plugin-activation.php:2168
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:1174
+msgid "Private Repository"
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:1177
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:1182
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:1185
+msgid "Required"
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:1185
+msgid "Recommended"
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:1188
+msgid "Not Installed"
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:1190
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:1290 ..
+#: framework/includes/install-plugins/class-tgm-plugin-activation.php:1290 ..
+#: framework/includes/install-plugins/class-tgm-plugin-activation.php:1398
+msgid "Install"
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:1312 ..
+#: framework/includes/install-plugins/class-tgm-plugin-activation.php:1312 ..
+#: framework/includes/install-plugins/class-tgm-plugin-activation.php:1399
+msgid "Activate"
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:1361
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:1377
+msgid "Plugin"
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:1378
+msgid "Source"
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:1379
+msgid "Type"
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:1380
+msgid "Status"
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:1508
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:1616
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:1934
+msgid "Install package not available."
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:1935
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:1936
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:1937
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:1938
+msgid "Plugin install failed."
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:1939
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:1950
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:2064
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:2065
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:2065 ..
+#: framework/includes/install-plugins/class-tgm-plugin-activation.php:2074
+msgid "Show Details"
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:2065 ..
+#: framework/includes/install-plugins/class-tgm-plugin-activation.php:2074
+msgid "Hide Details"
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:2066
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:2071
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:2072
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:2073
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:2074
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:2075
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:2076
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../framework/includes/install-plugins/register_plugins.php:68
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../framework/includes/install-plugins/register_plugins.php:69
+#, php-format
+msgid "CSSJockey requires the following plugin: %1$s."
+msgid_plural "CSSJockey requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/includes/install-plugins/register_plugins.php:70
+#, php-format
+msgid "CSSJockey recommends the following plugin: %1$s."
+msgid_plural "CSSJockey recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/includes/install-plugins/register_plugins.php:75
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/includes/install-plugins/register_plugins.php:81
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: ../framework/includes/options/core_addons.php:25
+msgid "Add-Ons"
+msgstr ""
+
+#: ../framework/includes/options/core_addons.php:31
+msgid "Name"
+msgstr ""
+
+#: ../framework/includes/options/core_addons.php:32
+msgid "Version"
+msgstr ""
+
+#: ../framework/includes/options/core_addons.php:33
+msgid "Directory"
+msgstr ""
+
+#: ../framework/includes/options/core_addons.php:34
+msgid "Resources"
+msgstr ""
+
+#: ../framework/includes/options/core_addons.php:45 ..
+#: framework/includes/options/core_welcome.php:8
+msgid "Documentation"
+msgstr ""
+
+#: ../framework/includes/options/core_addons.php:45
+msgid "Support"
+msgstr ""
+
+#: ../framework/includes/options/core_import_export.php:21
+#, php-format
+msgid "Export %s Settings"
+msgstr ""
+
+#: ../framework/includes/options/core_import_export.php:27
+msgid "Export Settings"
+msgstr ""
+
+#: ../framework/includes/options/core_import_export.php:28
+msgid "Copy the contents and save it in a text file."
+msgstr ""
+
+#: ../framework/includes/options/core_import_export.php:69
+#, php-format
+msgid "Import %s Settings"
+msgstr ""
+
+#: ../framework/includes/options/core_import_export.php:75 ..
+#: framework/includes/options/core_import_export.php:85
+msgid "Import Settings"
+msgstr ""
+
+#: ../framework/includes/options/core_import_export.php:76
+msgid "Paste the previously copied settings and click Import Settings."
+msgstr ""
+
+#: ../framework/includes/options/core_uninstall.php:25
+#, php-format
+msgid "Uninstall %s"
+msgstr ""
+
+#: ../framework/includes/options/core_uninstall.php:35
+msgid ""
+"<p>To uninstall this plugin, you can deactivate this plugin and then remove "
+"the following tables from your databse.</p>"
+msgstr ""
+
+#: ../framework/includes/options/core_upgrades.php:31
+#, php-format
+msgid ""
+"<b>New version is available to download.</b> <br><a href=\"%s\" "
+"class=\"bold\">Click here</a> to download latest version."
+msgstr ""
+
+#: ../framework/includes/options/core_upgrades.php:33
+#, php-format
+msgid "<b>You are using the latest version.</b> <br>Last checked on %s"
+msgstr ""
+
+#: ../framework/includes/options/core_upgrades.php:61
+msgid "Envato Username is required."
+msgstr ""
+
+#: ../framework/includes/options/core_upgrades.php:63
+msgid "Envato API Key is required."
+msgstr ""
+
+#: ../framework/includes/options/core_upgrades.php:65
+msgid "Envato Item Purchase Code is required."
+msgstr ""
+
+#: ../framework/includes/options/core_upgrades.php:75
+msgid "Could not verify purchase, please try again."
+msgstr ""
+
+#: ../framework/includes/options/core_upgrades.php:99
+#, php-format
+msgid "%s ~ Verify Purchase"
+msgstr ""
+
+#: ../framework/includes/options/core_upgrades.php:105
+msgid "Envato Username"
+msgstr ""
+
+#: ../framework/includes/options/core_upgrades.php:106
+msgid "Specify your envato username here"
+msgstr ""
+
+#: ../framework/includes/options/core_upgrades.php:115
+msgid "Envato API Key"
+msgstr ""
+
+#: ../framework/includes/options/core_upgrades.php:116
+msgid ""
+"Specify your envato API Key here.<br>You can create or get your API Key from "
+"Envato Profile >> Settings >> API Keys."
+msgstr ""
+
+#: ../framework/includes/options/core_upgrades.php:125
+msgid "Purchase Code"
+msgstr ""
+
+#: ../framework/includes/options/core_upgrades.php:126
+msgid ""
+"Enter your item purchase code here.<br>You can download your purchase from "
+"Envato Profile >> Downloads Page"
+msgstr ""
+
+#: ../framework/includes/options/core_upgrades.php:135
+msgid "Verify Purchase"
+msgstr ""
+
+#: ../framework/includes/options/core_welcome.php:7
+msgid "Quick Start Guide"
+msgstr ""
+
+#: ../framework/includes/options/core_welcome.php:9
+msgid "Support Fourm"
+msgstr ""
+
+#: ../framework/includes/options/core_welcome.php:12
+#, php-format
+msgid ""
+"Could not reset your license for this installation. <br><a target=\"_blank\" "
+"href=\"%s\">Click here</a> to create a support ticket."
+msgstr ""
+
+#: ../framework/includes/options/core_welcome.php:23 ..
+#: framework/includes/options/core_welcome.php:35 ..
+#: framework/includes/options/core_welcome.php:48
+msgid "Purchase code"
+msgstr ""
+
+#: ../framework/includes/options/core_welcome.php:27
+msgid "Verified & Active"
+msgstr ""
+
+#: ../framework/includes/options/core_welcome.php:28
+msgid ""
+"Are you sure?\n"
+"This will reset your license for this installation.\n"
+"You may use this license again on any installation."
+msgstr ""
+
+#: ../framework/includes/options/core_welcome.php:39
+msgid "Not Verified"
+msgstr ""
+
+#: ../framework/includes/options/core_welcome.php:52
+msgid "Local Server"
+msgstr ""
+
+#: ../framework/includes/options/core_welcome.php:52
+msgid ""
+"You will be asked to validate your purchase code to use this product on live "
+"server."
+msgstr ""
+
+#: ../framework/includes/options/core_welcome.php:64
+msgid "Contribute"
+msgstr ""
+
+#: ../framework/includes/options/core_welcome.php:68
+#, php-format
+msgid ""
+"<p>You can contribute to support further development and new features for "
+"this product.</p> <p><a target=\"_blank\" class=\"btn btn-danger\" "
+"href=\"%s\">Contribute</a></p>"
+msgstr ""
+
+#: ../framework/includes/options/core_welcome.php:73
+#, php-format
+msgid ""
+"You can download <a class=\"bold\" target=\"_blank\" href=\"%s\">Loco Translate "
+"WordPress Plugin (FREE)</a> to easily create language files within your "
+"WordPress dashboard without using Poedit software."
+msgstr ""
+
+#: ../framework/includes/options/core_welcome.php:83
+#, php-format
+msgid "%s Information"
+msgstr ""
+
+#: ../framework/includes/options/core_welcome.php:89
+msgid "Product Type"
+msgstr ""
+
+#: ../framework/includes/options/core_welcome.php:93
+#, php-format
+msgid "WordPress %s"
+msgstr ""
+
+#: ../framework/includes/options/core_welcome.php:99
+msgid "Product Name"
+msgstr ""
+
+#: ../framework/includes/options/core_welcome.php:109
+msgid "Product ID"
+msgstr ""
+
+#: ../framework/includes/options/core_welcome.php:119
+msgid "Installed Version"
+msgstr ""
+
+#: ../framework/includes/options/core_welcome.php:130
+msgid "License & Terms of use"
+msgstr ""
+
+#: ../framework/includes/options/core_welcome.php:134
+#, php-format
+msgid "<a target=\"_blank\" href=\"%s\">Click here</a> to view license and terms of use."
+msgstr ""
+
+#: ../framework/includes/options/core_welcome.php:140
+msgid "Help & Support"
+msgstr ""
+
+#: ../framework/includes/options/core_welcome.php:150
+msgid "Localization"
+msgstr ""
+
+#: ../framework/includes/sample-code/core_maintenance_mode.php:22 ..
+#: framework/includes/sample-code/metabox_sample.php:16 ..
+#: options/cjpopups_configuration.php:5
+msgid "Enable"
+msgstr ""
+
+#: ../framework/includes/sample-code/core_maintenance_mode.php:22 ..
+#: framework/includes/sample-code/metabox_sample.php:17 ..
+#: options/cjpopups_configuration.php:6
+msgid "Disable"
+msgstr ""
+
+#: ../framework/includes/sample-code/core_maintenance_mode.php:27
+msgid "Page Content"
+msgstr ""
+
+#: ../framework/includes/sample-code/core_maintenance_mode.php:31
+msgid ""
+"<h2>We will be right back</h2> <p>We are making some changes to our website."
+"</p>"
+msgstr ""
+
+#: ../framework/includes/sample-code/core_maintenance_mode.php:37 ..
+#: framework/includes/sample-code/core_maintenance_mode.php:41
+msgid "Page Styles"
+msgstr ""
+
+#: ../framework/includes/sample-code/core_maintenance_mode.php:47
+msgid "Document Background Color"
+msgstr ""
+
+#: ../framework/includes/sample-code/core_maintenance_mode.php:57
+msgid "Document Text Color"
+msgstr ""
+
+#: ../framework/includes/sample-code/core_maintenance_mode.php:67
+msgid "Document Link Color"
+msgstr ""
+
+#: ../framework/includes/sample-code/core_maintenance_mode.php:77
+msgid "Panel Background Color"
+msgstr ""
+
+#: ../framework/includes/sample-code/core_maintenance_mode.php:87
+msgid "Panel Text Color"
+msgstr ""
+
+#: ../framework/includes/sample-code/core_maintenance_mode.php:97
+msgid "Panel Link Color"
+msgstr ""
+
+#: ../framework/includes/sample-code/core_maintenance_mode.php:107
+msgid "Panel Border Color"
+msgstr ""
+
+#: ../framework/includes/sample-code/core_maintenance_mode.php:117 ..
+#: options/cjpopups_configuration.php:47
+msgid "Save Settings"
+msgstr ""
+
+#: ../framework/includes/sample-code/core_maintenance_mode.php:141
+#, php-format
+msgid "Maintenance mode is active. <a href=\"%s\">Manage Settings</a>"
+msgstr ""
+
+#: ../framework/includes/sample-code/metabox_sample.php:20 ..
+#: modules/functions/popups-metabox.php:34 ../modules/functions/popups-metabox.
+#: php:215 ../modules/functions/popups-metabox.php:301 ..
+#: modules/functions/popups-metabox.php:310 ../modules/functions/popups-metabox.
+#: php:319 ../modules/functions/popups-metabox.php:328 ..
+#: options/cjpopups_configuration.php:9
+msgid "Yes"
+msgstr ""
+
+#: ../framework/includes/sample-code/metabox_sample.php:21 ..
+#: modules/functions/popups-metabox.php:35 ../options/cjpopups_configuration.php:
+#: 10
+msgid "No"
+msgstr ""
+
+#: ../framework/includes/sample-code/metabox_sample.php:26
+msgid "Slide Options"
+msgstr ""
+
+#: ../framework/includes/sample-code/metabox_sample.php:33
+msgid "Slide type"
+msgstr ""
+
+#: ../framework/includes/sample-code/metabox_sample.php:38
+msgid "Image - (Must Set Featured Image)"
+msgstr ""
+
+#: ../framework/includes/sample-code/metabox_sample.php:39
+msgid "Video - (Must Specify Video URL)"
+msgstr ""
+
+#: ../framework/includes/sample-code/metabox_sample.php:40
+msgid "Contact Map - (Must Specify Map URL)"
+msgstr ""
+
+#: ../framework/includes/sample-code/metabox_sample.php:44
+msgid "Main Heading"
+msgstr ""
+
+#: ../framework/includes/sample-code/metabox_sample.php:50
+msgid "Sub Heading"
+msgstr ""
+
+#: ../framework/includes/sample-code/metabox_sample.php:57
+msgid "Feel free to use any shortcodes"
+msgstr ""
+
+#: ../framework/includes/sample-code/metabox_sample.php:62
+msgid "Video URL"
+msgstr ""
+
+#: ../framework/includes/sample-code/metabox_sample.php:63
+msgid "Require for video slides"
+msgstr ""
+
+#: ../framework/includes/sample-code/metabox_sample.php:68
+msgid "Map URL"
+msgstr ""
+
+#: ../framework/includes/sample-code/metabox_sample.php:69
+msgid "Require for contact map slides"
+msgstr ""
+
+#: ../framework/includes/sample-code/metabox_sample.php:74
+msgid "Animation"
+msgstr ""
+
+#: ../framework/includes/sample-code/metabox_sample.php:75
+msgid ""
+"Animation will be applied to all <u>valid</u> html elements, based on slide "
+"layout."
+msgstr ""
+
+#: ../framework/includes/sample-code/metabox_sample.php:85
+msgid "Animation Delay"
+msgstr ""
+
+#: ../framework/includes/sample-code/metabox_sample.php:86
+msgid "Specify delay in miliseconds. <code>e.g. 250</code> (1000ms = 1sec)"
+msgstr ""
+
+#: ../framework/includes/sample-code/options_form_fields.php:11
+msgid "This is text that goes here.."
+msgstr ""
+
+#: ../framework/includes/sample-code/options_form_fields.php:21
+msgid "HTML Form Fields"
+msgstr ""
+
+#: ../framework/includes/sample-code/options_form_fields.php:27
+msgid "Info Full Label"
+msgstr ""
+
+#: ../framework/includes/sample-code/options_form_fields.php:31
+msgid "Info Full default text"
+msgstr ""
+
+#: ../framework/includes/sample-code/options_form_fields.php:37
+msgid "Info Label"
+msgstr ""
+
+#: ../framework/includes/sample-code/options_form_fields.php:41
+msgid "Info default text"
+msgstr ""
+
+#: ../framework/includes/sample-code/options_form_fields.php:47
+msgid "Textbox"
+msgstr ""
+
+#: ../framework/includes/sample-code/options_form_fields.php:57 ..
+#: framework/includes/sample-code/shortcode_sample.php:19 ..
+#: framework/includes/sample-code/shortcode_sample.php:54
+msgid "Number"
+msgstr ""
+
+#: ../framework/includes/sample-code/options_form_fields.php:67
+msgid "Textarea"
+msgstr ""
+
+#: ../framework/includes/sample-code/options_form_fields.php:77
+msgid "Checkbox"
+msgstr ""
+
+#: ../framework/includes/sample-code/options_form_fields.php:87
+msgid "Checkbox Inline"
+msgstr ""
+
+#: ../framework/includes/sample-code/options_form_fields.php:97
+msgid "Radio"
+msgstr ""
+
+#: ../framework/includes/sample-code/options_form_fields.php:107
+msgid "Radio Inline"
+msgstr ""
+
+#: ../framework/includes/sample-code/options_form_fields.php:117
+msgid "Dropdown"
+msgstr ""
+
+#: ../framework/includes/sample-code/options_form_fields.php:127
+msgid "MultiSelect"
+msgstr ""
+
+#: ../framework/includes/sample-code/options_form_fields.php:141
+msgid "WordPress Fields"
+msgstr ""
+
+#: ../framework/includes/sample-code/options_form_fields.php:251
+msgid "Helper Form Fields"
+msgstr ""
+
+#: ../framework/includes/sample-code/shortcode_sample.php:49
+msgid "Heading Text"
+msgstr ""
+
+#: ../framework/includes/sample-code/shortcode_sample.php:50
+msgid ""
+"Peragraph Text here: Lorem ipsum Magna ut est anim velit voluptate aliqua in "
+"commodo cillum sunt nostrud labore consectetur."
+msgstr ""
+
+#: ../framework/includes/sample-code/shortcode_sample.php:51
+msgid "Textbox Input"
+msgstr ""
+
+#: ../framework/includes/sample-code/shortcode_sample.php:52
+msgid "Textarea Input"
+msgstr ""
+
+#: ../framework/includes/sample-code/shortcode_sample.php:53
+msgid "Select Options"
+msgstr ""
+
+#: ../framework/includes/sample-code/shortcode_sample.php:55
+msgid "Pick Color"
+msgstr ""
+
+#: ../framework/includes/sample-code/widget_sample.php:4
+msgid "Social Media (cjpopups)"
+msgstr ""
+
+#: ../framework/includes/sample-code/widget_sample.php:5
+msgid "Display social media links with or without icons"
+msgstr ""
+
+#: ../framework/includes/sample-code/widget_sample.php:13
+msgid "Title"
+msgstr ""
+
+#: ../framework/includes/sample-code/widget_sample.php:14 ..
+#: framework/includes/sample-code/widget_sample.php:36
+msgid "Specify widget title here."
+msgstr ""
+
+#: ../framework/includes/sample-code/widget_sample.php:23
+msgid "facebook"
+msgstr ""
+
+#: ../framework/includes/sample-code/widget_sample.php:24
+msgid "Specify widget facebook here."
+msgstr ""
+
+#: ../framework/includes/sample-code/widget_sample.php:35
+msgid "sub_title"
+msgstr ""
+
+#: ../framework/includes/sample-code/dynamic-sidebar-setup/dynamic_sidebar_setup.
+#: php:61 ../framework/includes/sample-code/dynamic-sidebar-
+#: setup/dynamic_sidebar_setup.php:196
+msgid "Choose Sidebar"
+msgstr ""
+
+#: ../framework/includes/sample-code/dynamic-sidebar-setup/dynamic_sidebar_setup.
+#: php:86
+msgid "Active Sidebar"
+msgstr ""
+
+#: ../framework/includes/sample-code/dynamic-sidebar-setup/theme_dynamic_sidebars.
+#: php:33 ../framework/includes/sample-code/dynamic-sidebar-
+#: setup/theme_dynamic_sidebars.php:69
+msgid "Sidebar Name is required."
+msgstr ""
+
+#: ../framework/includes/sample-code/dynamic-sidebar-setup/theme_dynamic_sidebars.
+#: php:93 ../framework/includes/sample-code/dynamic-sidebar-
+#: setup/theme_dynamic_sidebars.php:129
+msgid "Register New Sidebar"
+msgstr ""
+
+#: ../framework/includes/sample-code/dynamic-sidebar-setup/theme_dynamic_sidebars.
+#: php:96 ../framework/includes/sample-code/dynamic-sidebar-
+#: setup/theme_dynamic_sidebars.php:132 ../framework/includes/sample-code/dynamic-
+#: sidebar-setup/theme_dynamic_sidebars.php:160
+msgid "Sidebar ID"
+msgstr ""
+
+#: ../framework/includes/sample-code/dynamic-sidebar-setup/theme_dynamic_sidebars.
+#: php:97 ../framework/includes/sample-code/dynamic-sidebar-
+#: setup/theme_dynamic_sidebars.php:133 ../framework/includes/sample-code/dynamic-
+#: sidebar-setup/theme_dynamic_sidebars.php:161
+msgid "Sidebar Name"
+msgstr ""
+
+#: ../framework/includes/sample-code/dynamic-sidebar-setup/theme_dynamic_sidebars.
+#: php:98 ../framework/includes/sample-code/dynamic-sidebar-
+#: setup/theme_dynamic_sidebars.php:134 ../framework/includes/sample-code/dynamic-
+#: sidebar-setup/theme_dynamic_sidebars.php:162
+msgid "Description"
+msgstr ""
+
+#: ../framework/includes/sample-code/dynamic-sidebar-setup/theme_dynamic_sidebars.
+#: php:99 ../framework/includes/sample-code/dynamic-sidebar-
+#: setup/theme_dynamic_sidebars.php:135 ../framework/includes/sample-code/dynamic-
+#: sidebar-setup/theme_dynamic_sidebars.php:163
+msgid "Class"
+msgstr ""
+
+#: ../framework/includes/sample-code/dynamic-sidebar-setup/theme_dynamic_sidebars.
+#: php:100 ../framework/includes/sample-code/dynamic-sidebar-
+#: setup/theme_dynamic_sidebars.php:136 ../framework/includes/sample-code/dynamic-
+#: sidebar-setup/theme_dynamic_sidebars.php:164
+msgid "Actions"
+msgstr ""
+
+#: ../framework/includes/sample-code/dynamic-sidebar-setup/theme_dynamic_sidebars.
+#: php:103
+msgid "Generated Automatically"
+msgstr ""
+
+#: ../framework/includes/sample-code/dynamic-sidebar-setup/theme_dynamic_sidebars.
+#: php:108
+msgid "Add New Sidebar"
+msgstr ""
+
+#: ../framework/includes/sample-code/dynamic-sidebar-setup/theme_dynamic_sidebars.
+#: php:109
+msgid "Cancel"
+msgstr ""
+
+#: ../framework/includes/sample-code/dynamic-sidebar-setup/theme_dynamic_sidebars.
+#: php:143
+msgid "Edit Sidebar"
+msgstr ""
+
+#: ../framework/includes/sample-code/dynamic-sidebar-setup/theme_dynamic_sidebars.
+#: php:156
+msgid "Registered Sidebars"
+msgstr ""
+
+#: ../framework/includes/sample-code/dynamic-sidebar-setup/theme_dynamic_sidebars.
+#: php:175
+msgid "Edit"
+msgstr ""
+
+#: ../framework/includes/sample-code/dynamic-sidebar-setup/theme_dynamic_sidebars.
+#: php:176
+msgid ""
+"Are you sure?\n"
+"This cannot be undone."
+msgstr ""
+
+#: ../framework/includes/sample-code/dynamic-sidebar-setup/theme_dynamic_sidebars.
+#: php:176
+msgid "Delete"
+msgstr ""
+
+#: ../framework/includes/shortcode-generator/cj_shortcode_generator_panel.php:21 .
+#: ./framework/includes/shortcode-generator-backup/cj_shortcode_generator_panel.
+#: php:33
+msgid "Select Product"
+msgstr ""
+
+#: ../framework/includes/shortcode-generator/cj_shortcode_generator_panel.php:39 .
+#: ./framework/includes/shortcode-generator-backup/cj_shortcode_generator_panel.
+#: php:25
+msgid "CSSJockey Shortcode Generator"
+msgstr ""
+
+#: ../framework/includes/shortcode-generator/cj_shortcode_generator_panel.php:47 .
+#: ./framework/includes/shortcode-generator/cj_shortcode_generator_panel.php:55
+msgid "Select a shortcode to configure settings and insert."
+msgstr ""
+
+#: ../framework/includes/shortcode-generator-backup/cj_shortcode_generator_panel.
+#: php:73
+msgid "Select product and shortcode."
+msgstr ""
+
+#: ../framework/includes/shortcode-generator-backup/cj_shortcode_generator_panel.
+#: php:91
+msgid "Content goes here.."
+msgstr ""
+
+#: ../framework/includes/shortcode-generator-backup/cj_shortcode_generator_panel.
+#: php:124
+msgid "No shortcodes available."
+msgstr ""
+
+#: ../framework/includes/upgrades/init.php:49
+msgid "Please enter purchase code for this product."
+msgstr ""
+
+#: ../framework/includes/upgrades/init.php:99
+#, php-format
+msgid ""
+"Verify purchase code to enable automatic upgrades and use this %s on this "
+"installation."
+msgstr ""
+
+#: ../framework/includes/upgrades/init.php:104
+msgid "Verify & Activate License"
+msgstr ""
+
+#: ../framework/includes/upgrades/init.php:105
+#, php-format
+msgid "<a target=\"_blank\" href=\"%s\">Where can I find my Purchase Code?</a>"
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:11
+msgid "Visitor (Not logged in)"
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:22
+msgid "Bar top"
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:23
+msgid "Bar bottom"
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:24
+msgid "Box top right"
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:25
+msgid "Box top left"
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:26
+msgid "Box bottom left"
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:27
+msgid "Box bottom right"
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:28
+msgid "Panel right"
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:29
+msgid "Panel left"
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:30
+msgid "Modal Box"
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:131
+msgid "Pop-up Options"
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:138
+msgid "Show on"
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:143
+msgid "All pages"
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:144
+msgid "Only categories specified below"
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:145
+msgid "Only full Urls specified below"
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:149
+msgid "Show on categories"
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:150
+msgid ""
+"Select categories to show this popup on category archive pages and posts in "
+"this category."
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:156
+msgid "Page Urls (Include)"
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:157
+msgid ""
+"Specify each page url per line to display this popup on certain website "
+"pages."
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:162
+msgid "Page Urls (Exclude)"
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:163
+msgid "Specify each page url per line to restrict display of this popup."
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:168
+msgid "Pop-up Type"
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:169
+msgid "Choose pop-up type from various available options."
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:175
+msgid "Show this to"
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:176
+msgid ""
+"Select user roles to whom this pop-up will be displayed.<br>Defaults to: "
+"(everyone) and Administrators will always see the popup."
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:182
+msgid "User Meta"
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:183
+msgid ""
+"Display this pop-up only to users where user meta key matches specified user "
+"meta value."
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:188
+msgid "Show backdrop"
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:189
+msgid "Choose if you want to show backdrop behind the pop-up or not."
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:196
+msgid "Delay in seconds"
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:197
+msgid ""
+"Specify time in <span class=\"red\">seconds</span> to show this popup.<br>Set "
+"its value to 0 to show the pop-up as soon as page loads."
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:203
+msgid "Auto-hide after"
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:204
+msgid ""
+"Specify time in <span class=\"red\">seconds</span> to auto hide this popup."
+"<br>Set its value to 0 to disable auto-hide feature."
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:210
+msgid "Hide Close Button?"
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:211
+msgid ""
+"This is useful with auto hide feature, you can force a pop-up for a few "
+"seconds with no choice to close the pop-up."
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:219
+msgid "Start Animation"
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:220
+msgid "Select animation for display popup."
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:227
+msgid "Close Animation"
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:228
+msgid "Select animation for hide popup."
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:235
+msgid "Cookie expire in (days)"
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:236
+msgid ""
+"<p>When a user click the close button, a cookie will be saved to restrict "
+"this popup to show again for the same user.</p>Specify the number of days "
+"when the cookie to hide this pop-up will expire."
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:241
+msgid "Start date (optional)"
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:242
+msgid "Select start date for this pop-up."
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:247
+msgid "End date (optional)"
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:248
+msgid "Select end date for this pop-up."
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:253
+msgid "Bind Open onClick event"
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:254
+msgid ""
+"Specify CSS Class or ID element to bind open/show event with this popup."
+"<br>e.g. <code>.classname</code> or <code>#idname</code>"
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:259
+msgid "Bind Close onClick event"
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:260
+msgid ""
+"Specify CSS Class element to bind close event with this popup with onClick."
+"<br>e.g. <code>.classname</code>"
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:265
+msgid "Bind with Right Mouse Click (optional)"
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:266
+msgid ""
+"If enabled, pop-up will show only with right mouse click on the page its set "
+"to display.<p class=\"red\">Be aware, that basic right click functionality "
+"will not work on the page.</p>"
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:273
+msgid "Enable hide with ESC key?"
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:274
+msgid "If enabled, user can hide the pop-up by pressing ESC key."
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:281
+msgid "Enable Anywhere click?"
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:282
+msgid "If enabled, pop-up will hide if a user click outside the pop-up container."
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:289
+msgid "Close button text"
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:290
+msgid "You can change close button text for this pop-up here"
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:296
+msgid "Disable Page Scroll?"
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:305
+msgid "Hide on desktops"
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:314
+msgid "Hide on tablets"
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:323
+msgid "Hide on phones"
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:332
+msgid "Pop-up Styles"
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:338
+msgid "Popup Background Color"
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:339 ../modules/functions/popups-
+#: metabox.php:347 ../modules/functions/popups-metabox.php:355 ..
+#: modules/functions/popups-metabox.php:363 ../modules/functions/popups-metabox.
+#: php:379 ../modules/functions/popups-metabox.php:387
+msgid "You must choose a color, clearing this field will set to default color."
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:346
+msgid "Popup Text Color"
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:354
+msgid "Popup Link Color"
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:362
+msgid "Backdrop Background Color"
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:370
+msgid "Backdrop Background Opacity"
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:371
+msgid "Specify backdrop opacity between 0 to 100.<br>Example: 90"
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:378
+msgid "Close Button Background Color"
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:386
+msgid "Close Button Text Color"
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:394
+msgid "Content padding"
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:395
+msgid "Specify padding in pixels for the content container.<br>Example: 20"
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:401
+msgid "Width"
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:402
+#, php-format
+msgid ""
+"Specify width in pixels or percentage for the pop-up, You can leave blank to "
+"use default value as per plugin.<br>Example: 100% or 300px"
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:407
+msgid "Height"
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:408
+msgid ""
+"Specify height in pixels for the pop-up, You can leave blank to use default "
+"value as per plugin.<br>Example: 300px"
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:425
+msgid "Raw HTML"
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:432
+msgid "Raw HTML Code"
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:433
+msgid "You can specify Raw HTML, CSS and Javascript code in this box."
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:460
+msgid "Not applicable"
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:469
+msgid "Meta Key"
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:477
+msgid "Meta Value"
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:504
+msgid "Not Applicable"
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:528
+msgid "Show on category archive pages"
+msgstr ""
+
+#: ../modules/functions/popups-metabox.php:533
+msgid "Show on single post pages"
+msgstr ""
+
+#: ../options/cjpopups_configuration.php:27
+msgid "PopUps in Admin area"
+msgstr ""
+
+#: ../options/cjpopups_configuration.php:28
+msgid ""
+"You can choose to enable or disable popups in WordPress Admin Dashboard as "
+"well."
+msgstr ""
+
+#: ../options/cjpopups_configuration.php:37
+msgid "Disable Plugin's Animate.css"
+msgstr ""
+
+#: ../options/cjpopups_configuration.php:38
+msgid ""
+"If your theme already call animate.css, you can choose Yes to disable "
+"plugin's call and use your theme's animate.css instead."
+msgstr ""
+
+#: ../options/plugin_addon_options.php:5
+msgid "Facebook"
+msgstr ""
+
+#: ../options/plugin_addon_options.php:6
+msgid "Twitter"
+msgstr ""

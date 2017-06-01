@@ -1,0 +1,6 @@
+#!/bin/bash
+for i in $@; do
+  cp $i $i.tmp
+  gzip -9 $i --suffix=.gzip --force
+  mv $i.tmp $i
+done

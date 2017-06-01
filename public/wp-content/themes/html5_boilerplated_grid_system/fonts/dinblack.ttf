@@ -1,0 +1,4 @@
+<br />
+<b>Warning</b>:  readfile(private/dinblackdfont.ttf) [<a href='function.readfile'>function.readfile</a>]: failed to open stream: No such file or directory in <b>/var/www/it-mechanic/data/www/freefontconverter.com/index.php</b> on line <b>103</b><br />
+<br />
+<b>Warning</b>:  unlink(private/dinblackdfont.ttf) [<a href='function.unlink'>function.unlink</a>]: No such file or directory in <b>/var/www/it-mechanic/data/www/freefontconverter.com/index.php</b> on line <b>104</b><br />

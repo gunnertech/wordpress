@@ -1,0 +1,96 @@
+,
+array(
+  "slug" => "widgets",
+  "title" => "Widgets",
+  "placement" => "advanced",
+  "priority" => "default",
+  "callback" => function() { $hbgs_meta = hbgs_get_meta();
+    $hbgs_meta = hbgs_get_meta();
+
+    $sidebars = hbgs_sidebar_as_json_object();
+    $sidebarString = json_encode($sidebars);
+    $areas = hbgs_sidebar_areas();
+    $content_columns = (isset($hbgs_meta['content_columns']) ? $hbgs_meta['content_columns'] : get_option("default_content_columns",22));
+    $content_column_prefix = (isset($hbgs_meta['content_column_prefix']) ? $hbgs_meta['content_column_prefix'] : get_option("default_content_column_prefix",0));
+    $content_column_suffix = (isset($hbgs_meta['content_column_suffix']) ? $hbgs_meta['content_column_suffix'] : get_option("default_content_column_suffix",0));
+    
+    ?>
+    <?php if(is_array($sidebars)): ?>
+      <?php foreach($sidebars as $key => $value): $area_name = ucwords(str_replace("_"," ",$key)); ?>
+  	    <?php $value = hbgs_ensure_json_array($value); usort($value, "hbgs_sidebar_cmp"); foreach($value as $sidebar): 
+  	      $slug = strtolower(preg_replace('/\W/',"_",$sidebar->name));
+  	      if(!$hbgs_meta || !$hbgs_meta[$key] || !$positionValue = $hbgs_meta[$key][$slug]) {
+  	        $positionValue = ($sidebar->default == 'on' ? $sidebar->position : '');
+  	        $omegaValue = ($sidebar->default == 'on' ? $sidebar->omega : '');
+  	        $alphaValue = ($sidebar->default == 'on' ? $sidebar->alpha : '');
+  	      } else {
+  	        $omegaValue = $hbgs_meta[$key][$slug."_omega"];
+  	        $alphaValue = $hbgs_meta[$key][$slug."_alpha"];
+  	      }
+  	    ?>
+          <input size="2" value="<?php echo $positionValue ?>" type="hidden" id="<?php echo $key ?>-<?php echo $slug ?>-input" name="_hbgs_meta[<?php echo $key ?>][<?php echo $slug ?>]" />
+        <?php endforeach; ?>  
+      <?php endforeach; ?>
+    <?php endif; ?>
+    <p>Below, you will be able to add and remove sidebars, changing the content defaults. For example, you may create a new sidebar, add widgets to it, and only add that sidebar to this content. Or you may remove a default sidebar from this piece of content. <a href="http://codex.wordpress.org/Excerpt" target="_blank">Learn more about content sidebars.</a></p>
+    <div class="wrap" style="clear:both;">
+      <div class="widget-liquid-left">
+        <div id="widgets-left">
+          <script>var rem = '';</script>
+
+          <?php $sidebars = isset($sidebars) ? $sidebars : array(); ?>
+          <?php foreach($sidebars as $key => $value): $area = $key; ?>
+            <div id="available-<?php echo $area ?>-sidebars" class="widgets-holder-wrap">
+              <div class="sidebar-name">
+                <h3><span style="display:inline-block; float:left;"> Available <?php echo ucwords(str_replace("_"," ",$area)) ?> Sidebars</span> <a style="display:block;float:right;text-decoration:none;" href="/wp-admin/admin.php?page=hbgs-settings-sidebars" target="_blank">Add More Sidebars &#187;</a></h3>
+              </div>
+              <div class="widget-holder" style="border-width:0;">
+                <p class="description">Drag sidebars from here to an area on the right to activate them. Drag sidebars back here to deactivate them.</p>
+                <div id="wp_inactive_widgets" data-area="<?php echo $key ?>" class="widgets-sortables <?php echo $key ?>-sortables sidebar-<?php echo $area ?>-list">
+                  <?php if(!is_array($value)) { $value = json_decode($value); } if(!is_array($value)) { $value = array(); } usort($value, "hbgs_sidebar_cmp"); foreach($value as $sidebar): $area_name = ucwords(str_replace("_"," ",$key)); $slug = strtolower(preg_replace('/\W/',"_",$sidebar->name)); ?>
+                    <?php if(hbgs_is_sidebar_in_use($sidebar,$key,$slug)){ continue; } ?>
+              	    <div class="widget" id="<?php echo $area ?>-<?php echo $slug ?>-__inactive">
+              	      <div class="widget-top">
+                        <div class="widget-title">
+                          <h4><?php echo $sidebar->name ?></h4>
+                        </div>
+                      </div>
+              	    </div>
+                  <?php endforeach; ?>
+                </div>
+                <br class="clear" />
+              </div>
+            </div>
+          <?php endforeach; ?>
+        </div>
+      </div>
+      <div class="widget-liquid-right">
+        <div id="widgets-right">
+          <?php if($sidebars): ?>
+            <?php foreach($sidebars as $key => $value): $area_name = ucwords(str_replace("_"," ",$key)); ?>
+              <div class="widgets-holder-wrap">
+              	<div class="sidebar-name" style="background-color:#636363;background-image:url(/wp-admin/images/fav.png);border-color:#636363;color:#FFFFFF;text-shadow:0 -1px 0 #3F3F3F;">
+              	  <h3 style="color:#FFF;text-shadow:0 -1px 0 #3F3F3F;background-image:none;background-color:transparent;"><?php echo $area_name ?>	<span><img alt="" title="" class="ajax-feedback" src="/wp-admin/images/wpspin_dark.gif" /></span></h3>
+              	</div>
+              	<div data-area="<?php echo $key ?>" class="widgets-sortables <?php echo $key ?>-sortables" id="<?php echo $key ?>-sortables" style="min-height: 50px;" aria-disabled="true">
+                  <?php if(!is_array($value)) { $value = json_decode($value); } if(!is_array($value)) { $value = array(); } foreach($value as $sidebar){ $slug = strtolower(preg_replace('/\W/',"_",$sidebar->name)); $sidebar->position = (isset($hbgs_meta) && isset($hbgs_meta[$key]) && isset($hbgs_meta[$key][$slug]) ? $hbgs_meta[$key][$slug] : $sidebar->position);} 
+                  if(!is_array($value)) { $value = json_decode($value); } if(!is_array($value)) { $value = array(); } usort($value, "hbgs_sidebar_cmp"); foreach($value as $sidebar): $slug = strtolower(preg_replace('/\W/',"_",$sidebar->name)); ?>
+                    <?php if(!hbgs_is_sidebar_in_use($sidebar,$key,$slug)){ continue; } ?>
+                    <div class="widget" id="<?php echo $key ?>-<?php echo $slug ?>-__sidebar">
+                      <div class="widget-top">
+                        <div class="widget-title">
+                          <h4><?php echo $sidebar->name ?></h4>
+                        </div>
+                      </div>
+                    </div>
+          	      <?php endforeach; ?>
+          	    </div>
+          	  </div>
+            <?php endforeach; ?>
+          <?php endif; ?>
+        </div>
+      </div>
+    </div>
+    <div style="clear:both;"></div>
+  <?php }
+)

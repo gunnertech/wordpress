@@ -1,0 +1,1 @@
+<?php include(hbgs_theme_path()."index.php"); ?>

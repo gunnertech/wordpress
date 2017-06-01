@@ -1,0 +1,1 @@
+This is a sample child theme for Office. Enjoy!

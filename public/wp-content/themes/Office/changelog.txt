@@ -1,0 +1,80 @@
+==> v1.001 (03/01/2012)
+* initial released 
+
+==> v1.001 (03/02/2012)
+* Removed blank line at the top of breadcrumbs.php
+* Added important value to navigation menu to fix small Ipad bug.
+
++++++ Files Changed +++++
+* functions/breadcrumbs.php
+* style.css line 606 => background-color: #2b2b2b !important;
+
+
+==> v1.1 (03/02/2012)
+
+* Updated .PO files
+* Fix for static homepage content not working
+* Enabled shortcodes for homepage tagline.
+* Fixed homepage tagline title not working & added URL option
+* Added service staff categories
+* Added enable/disable option for content background pattern
+
+
++++++ Files Changed +++++
+* lang/default.po
+* lang/default.mo
+* index.php
+* theme-options.php
+* includes/home/static-page.php
+* functions.php
+* taxonomy-service_cats.php (added)
+* functions/breadcrumbs.php
+
+
+
+==> v1.2 (03/06/2012)
+
+* Added stylesheet for ie7 with some fixes
+* fixes javascript bugs for ie7
+* Added 8 more background choices to the admin panel
+* Added color option for homepage tagline line
+* Added color options for changing the navigation menu
+* Fixed bug with 2/3 and 3/4 column styles
+* Added/Fixed youtube social icon
+
++++++ Files Changed +++++
+* admin/theme-options.php
+* functions.php
+* header.php
+* style.css
+* css/responsive.css
+* css/ie7.css (added)
+* backgrounds/bg (added new images in this folder)
+
+
+==> v1.3 (03/17/2012)
+
+* Added list style shortcodes
+* Fixed issue with bullets not working in service tabs
+* Added filter posts by category to portfolio, staff, service post types - in the WP dashboard for easier management
+
++++++ Files Changed +++++
+* functions.php
+* template-services.php
+* taxonomy_service_cats.php
+* functions/shortcodes.php
+* mce/shortcode-popup.php
+* mce/office-shortcodes-iframe.php
+* mce/shortcodes/list.php (new)
+* images/shortcodes (new)
+
+
+
+==> v1.4 (03/25/2012)
+
+* Fixed issue with page slider pulling in images inserted to your posts.
+* Fixed child-theme not working issue + included sample child theme
+
++++++ Files Changed +++++
+* includes/page-slides.php
+* child-theme folder (added)

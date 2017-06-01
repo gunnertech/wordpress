@@ -1,0 +1,25 @@
+Vagrantfile
+support/vagrant/
+support/scripts/
+support/deploy/
+support/deploy.rb
+config/scripts/
+config/deploy/
+config/deploy.rb
+Capfile
+Gemfile
+Gemfile.lock
+
+
+#### DELETE THIS AND MOVE TO .slugignore if we're going to be working locall
+
+**/wp-content/**/*.sass
+**/wp-content/**/*.scss
+**/wp-content/**/*.jpeg
+**/wp-content/**/*.jpg
+**/wp-content/**/*.css
+**/wp-content/**/*.png
+**/wp-content/**/*.gif
+**/wp-content/**/*.js
+
+#### /DELETE THIS AND MOVE TO .slugignore if we're going to be working locally
