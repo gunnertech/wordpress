@@ -1,3 +1,3 @@
 <?php
 
-define("GT_ASSET_VERSION", "866");
+define("GT_ASSET_VERSION", "870");

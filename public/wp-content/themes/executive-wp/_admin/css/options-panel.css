@@ -1,0 +1,138 @@
+/*---------------------------------------------------------------------------------------------
+
+	CSS Stylesheet
+					
+-----------------------------------------------------------------------------------------------*/
+
+		.ewf-setup
+
+		/* =forms-messages
+		-------------------------------------------------------------- */
+		
+		.ewf-setup label{ font-weight:bold; color:#000000; }
+		.ewf-setup label span.required{ color:#ff0000; }
+		
+		.ewf-setup fieldset{ padding:15px; margin:0 0 20px 0; border:1px solid #efefef; }
+		.ewf-setup legend{ font-weight: bold; }
+		
+		.ewf-setup input[type=text], 
+		.ewf-setup input[type=password], 
+		.ewf-setup input.text, textarea{ background-color:#ffffff; border:1px solid #e1e1e1; padding:5px; width:300px; }
+		
+		.ewf-setup input[type=text]:focus, 
+		.ewf-setup input[type=password]:focus, 
+		.ewf-setup input.text:focus, 
+		.ewf-setup textarea:focus{ border-color:#cccccc; }
+		
+		.ewf-setup select{ border-width:1px; border-style:solid; background-color:#ffffff;  }
+		
+		.ewf-setup input[type=text], 
+		.ewf-setup input[type=password], 
+		.ewf-setup input.text, 
+		.ewf-setup textarea, 
+		.ewf-setup select{ margin:5px 0; }
+		
+		.ewf-setup input.text{  }
+		.ewf-setup textarea{ height:100px;  }
+
+		.ewf-setup select {
+			border:1px solid #e1e1e1; padding:5px; width:300px;
+			vertical-align: middle;
+		}
+		.ewf-setup option {
+
+		}
+		.ewf-setup option:hover {
+			cursor: pointer;
+		}
+
+		
+		/* =grid
+		-------------------------------------------------------------- */
+
+		.row{  }
+			
+			.col-700{ width:700px; float:left; margin-right:20px; }
+			.col-460{ width:460px; float:left; margin-right:20px; }
+		    .col-340{ width:340px; float:left; margin-right:20px; }
+			.col-300{ width:300px; float:left; margin-right:20px; }
+			.col-280{ width:280px; float:left; margin-right:20px; }
+			.col-220{ width:220px; float:left; margin-right:20px; }
+
+			
+			
+		.last{ margin-right:0px; }
+		.clear{ clear:both; }
+		.block{ display:block; }
+		.hide{ visibility:hidden; }	
+		.bordered{ padding:20px; border-bottom:1px solid #efefef; margin-top:20px; -moz-border-radius: 3px; border-radius: 3px; }
+		
+		#wrap p { margin-top:5px; }
+		#wrap h3 { margin-bottom:30px;margin-top:0; }
+		#wrap h4 { margin-bottom:0;margin-top:0; }
+		
+		#wrap .text-right  { text-align:right; }
+		
+		.full-panel  { overflow:hidden; }
+		
+		/* =clearfix
+		-------------------------------------------------------------- */
+		.clearfix:after { content: ".";display: block;clear: both;visibility: hidden;line-height: 0;height: 0;	}
+		.clearfix { display: inline-block; }
+		html[xmlns] .clearfix { display: block; }
+		* html .clearfix {  height: 1%; }
+		* { outline: none; }
+
+		
+		/* Clear Fix Hack - add  class="fixed"  to div's that have floated elements in them */
+		.clfixed:after{content:"."; display:block; height:0; clear:both; visibility:hidden;}
+			.clfixed{display:block;}
+			/*  \*/
+			.clfixed{min-height:1%;}
+			* html .clfixed{height:1%;}
+		
+/* =LAYOUT
+-----------------------------------------------------------------------------------------------*/
+	
+	#setup {padding-top:15px; }
+	#outer-wrap{padding:20px 0; background:#EFF1F1 url('../images/bg-body.jpg') repeat top left; margin:0 auto; -moz-border-radius: 5px; border-radius: 5px; }
+	
+	
+	#wrap{ width:622px; padding:0 40px 40px 40px; margin:0 0 0 50px; background-color:#FFFFFF;
+		   -moz-box-shadow: 0 0px 2px 0 #333; -webkit-box-shadow: 0 0px 2px 0 #333; box-shadow: 0 0px 2px 0 #333;
+		   -moz-border-radius: 3px; border-radius: 3px; }
+	
+		#header{ padding-top:40px; }
+
+		#content{ border:1px solid #efefef; border-bottom:none; }
+
+			/* =tabs
+			-----------------------------------------------------------------------------------------------*/
+			
+			.tabs{ list-style-type:none; list-style-position:outside; background-color:#f5f5f5; }
+			.tabs li{ float:left;margin:0; }
+			.tabs li a:hover{ }
+			.tabs li a{ display:block; padding:11px; border-right:1px solid #efefef; border-bottom:1px solid #efefef;  }
+			.tabs li.current a{ color: #FF0000; font-weight:bold; border-bottom-color:#fff; background-color:#fff; }
+			.tabs li.current a:hover{ text-decoration:none; }
+
+			
+	
+	
+	.full-content .panel { display:none; }
+	.full-content .panel.current { display:block; }
+	
+/*----- Metabox - Layout Sidebar ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/			
+	.ewf-page-layout 						{ margin-right:5px;width:50px;height:40px;float:left;cursor:pointer;display:block; }
+	.ewf-page-layout.active 				{ background-position:center bottom !important; }
+	.ewf-layout-widget label 				{ display:block;margin:5px 0;line-height:18px; }
+	.ewf-layout-widget select 				{ width:100%; }
+	.ewf-layout-widget .side-new 			{ margin-top:15px; }
+	
+	.ewf-layout-widget hr 					{ margin:14px 2px 12px 2px;border-top:1px solid #DFDFDF;border-bottom:1px solid #fff;border-left:none;border-right:none;  }
+
+/*----- Metabox - Layout Footer ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/			
+	.ewf-footer-layout 						{ margin-right:5px;width:50px;height:40px;float:left; }
+	.ewf-footer-layout.active 				{ background-position:center bottom !important; }
+	
+	
